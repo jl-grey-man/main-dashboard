@@ -368,6 +368,30 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:05.378297+00:00",
       "updated_at": "2026-03-08T14:03:05.378297+00:00"
+    },
+    {
+      "id": "littleworld",
+      "name": "LittleWorld",
+      "description": "An autonomous AI civilization simulation where two AI agents (The Mayor and God) interact on a 100\u00d7100 grid world with emergent behavior, designed to run on single-board computers using local LLMs.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/littleworld",
+      "status_label": "active",
+      "github_repo": "jl-grey-man/littleworld",
+      "github_url": "https://github.com/jl-grey-man/littleworld",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-02",
+      "last_commit_message": "Initial commit: autonomous AI civilization simulation",
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "llama.cpp",
+        "Ollama"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T14:03:17.413173+00:00",
+      "updated_at": "2026-03-08T14:03:17.413173+00:00"
     }
   ]
 }

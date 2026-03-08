@@ -183,7 +183,7 @@ function copyOpen() {}
 
 function openCmd(p) {
   if (p.path_mac) return `cd ${p.path_mac} && agentdeck`;
-  if (p.path_pi)  return `ssh jens@100.72.180.20 "cd ${p.path_pi} && claude"`;
+  if (p.path_pi)  return `ssh -t pipod "cd ${p.path_pi} && agentdeck"`;
   return null;
 }
 

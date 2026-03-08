@@ -99,6 +99,27 @@
       "state": "pending",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
       "updated_at": "2026-03-08T13:38:05.871195+00:00"
+    },
+    {
+      "id": "theagency",
+      "name": "theagency",
+      "description": null,
+      "path_pi": "/mnt/storage/theagency",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": "jl-grey-man/cosmosbeat-mobile",
+      "github_url": "https://github.com/jl-grey-man/cosmosbeat-mobile",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-07",
+      "last_commit_message": "feat: CosmosBeat Mobile \u2014 loop zone redesign + instrument overhaul",
+      "tech_stack": [
+        "Node.js"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-08T13:38:06.824927+00:00",
+      "updated_at": "2026-03-08T13:38:06.824927+00:00"
     }
   ]
 }

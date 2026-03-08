@@ -245,6 +245,31 @@
       "state": "pending",
       "added_at": "2026-03-08T14:00:47.475740+00:00",
       "updated_at": "2026-03-08T14:00:47.475740+00:00"
+    },
+    {
+      "id": "streamriphtml",
+      "name": "Qobuz 90s Album Collection",
+      "description": "A self-contained single-page HTML app for browsing, searching, and selecting 90s albums on Qobuz, with support for filtering by genre/source, selecting albums to generate rip URLs, and permanently adding new albums via the Qobuz API.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/StreamripHtml",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Qobuz API",
+        "localStorage"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T14:01:07.846097+00:00",
+      "updated_at": "2026-03-08T14:01:07.846097+00:00"
     }
   ]
 }

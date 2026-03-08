@@ -349,6 +349,25 @@
       "state": "pending",
       "added_at": "2026-03-08T14:01:45.905671+00:00",
       "updated_at": "2026-03-08T14:01:45.905671+00:00"
+    },
+    {
+      "id": "ipod-ai",
+      "name": "ipod-ai",
+      "description": null,
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/ipod-ai",
+      "status_label": "active",
+      "github_repo": "jl-grey-man/ipod-a",
+      "github_url": "https://github.com/jl-grey-man/ipod-a",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-02-10",
+      "last_commit_message": "v0.7.3: Switch to Llama 3.2 1B with structured outputs",
+      "tech_stack": [],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T14:03:05.378297+00:00",
+      "updated_at": "2026-03-08T14:03:05.378297+00:00"
     }
   ]
 }

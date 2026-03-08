@@ -81,7 +81,7 @@
     {
       "id": "testgame",
       "name": "Scrap Runner",
-      "description": "Mad Max-style isometric scrap collecting game where you drive a junker car through a ruined city, loot wrecks, and drag parts onto your car to upgrade it. Features a Phaser 3 isometric world with a Three.js 3D car overlay.",
+      "description": "A Mad Max-style isometric scrap collecting game where you drive a junker car through a ruined city, looting wrecks and dragging parts onto your car to upgrade it.",
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -95,13 +95,12 @@
         "Phaser 3",
         "Three.js",
         "JavaScript",
-        "ES Modules",
-        "HTML5 Canvas"
+        "ES Modules"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-08T13:59:41.713627+00:00"
+      "updated_at": "2026-03-08T14:12:42.264856+00:00"
     },
     {
       "id": "--podpal--",

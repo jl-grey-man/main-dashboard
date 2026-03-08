@@ -391,6 +391,30 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:32.350897+00:00",
       "updated_at": "2026-03-08T14:03:32.350897+00:00"
+    },
+    {
+      "id": "promptgen",
+      "name": "PromptGen",
+      "description": "A Python CLI tool that converts natural language descriptions into optimized Stable Diffusion prompts in Danbooru tag format for the CyberRealistic Pony v16.0 model, using the OpenRouter API (Claude 3.5 Sonnet) for LLM-powered generation and iterative refinement.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/promptgen",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "OpenRouter API",
+        "Claude 3.5 Sonnet",
+        "Stable Diffusion"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T14:03:46.366730+00:00",
+      "updated_at": "2026-03-08T14:03:46.366730+00:00"
     }
   ]
 }

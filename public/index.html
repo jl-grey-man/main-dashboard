@@ -49,7 +49,13 @@
     .btn-save:hover { background: #2a4a5a; }
     .btn-cancel { background: #2a2a2a; color: #888; }
     .btn-cancel:hover { background: #3a3a3a; }
-    .source-badge { position: absolute; top: 12px; right: 12px; font-size: 0.65rem; color: #444; }
+    .source-badge {
+      position: absolute; top: 10px; right: 12px;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em;
+      text-transform: uppercase; padding: 2px 8px; border-radius: 4px;
+    }
+    .source-badge.pi  { background: #1a2a4a; color: #4a9eff; }
+    .source-badge.mac { background: #2a1a3a; color: #b97fff; }
     .empty { color: #444; font-size: 0.85rem; padding: 16px 0; }
     /* Edit form */
     .edit-form { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
@@ -98,7 +104,7 @@ function card(p, isPending) {
   div.dataset.id = p.id;
 
   div.innerHTML = `
-    <span class="source-badge">${p.source || ''}</span>
+    <span class="source-badge ${p.source || ''}">${p.source || ''}</span>
     <div class="card-name">${p.name}</div>
     <div class="card-desc">${p.description || '<em style="color:#555">no description</em>'}</div>
     <div class="meta">

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #0f0f0f; color: #e0e0e0; padding: 24px; }
+    h1 { font-size: 1.4rem; color: #fff; margin-bottom: 8px; }
+    .subtitle { font-size: 0.8rem; color: #666; margin-bottom: 32px; }
+    h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin: 32px 0 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    .card {
+      background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px;
+      padding: 16px; position: relative;
+    }
+    .card.pending { border-color: #4a3a00; background: #1a1500; }
+    .card-name { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .card-desc { font-size: 0.8rem; color: #888; margin-bottom: 12px; min-height: 20px; }
+    .meta { display: flex; flex-direction: column; gap: 4px; }
+    .meta-row { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; color: #666; }
+    .meta-row a { color: #4a9eff; text-decoration: none; }
+    .meta-row a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block; padding: 2px 8px; border-radius: 999px;
+      font-size: 0.7rem; font-weight: 500;
+    }
+    .badge.active { background: #0a3a0a; color: #4caf50; }
+    .badge.paused { background: #3a2a00; color: #ff9800; }
+    .badge.archived { background: #2a0a0a; color: #f44336; }
+    .stack { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+    .stack-tag {
+      background: #2a2a2a; color: #aaa; font-size: 0.65rem;
+      padding: 2px 6px; border-radius: 4px;
+    }
+    .card-actions { display: flex; gap: 8px; margin-top: 12px; }
+    .btn {
+      padding: 4px 12px; border-radius: 4px; border: none;
+      cursor: pointer; font-size: 0.75rem; font-weight: 500;
+    }
+    .btn-approve { background: #1a4a1a; color: #4caf50; }
+    .btn-approve:hover { background: #2a6a2a; }
+    .btn-ignore { background: #2a1a1a; color: #f44336; }
+    .btn-ignore:hover { background: #4a2a2a; }
+    .source-badge { position: absolute; top: 12px; right: 12px; font-size: 0.65rem; color: #444; }
+    .empty { color: #444; font-size: 0.85rem; padding: 16px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Project Dashboard</h1>
+<p class="subtitle" id="last-updated">Loading...</p>
+
+<h2 id="pending-heading">Pending Review</h2>
+<div class="grid" id="pending-grid"></div>
+
+<h2>Active Projects</h2>
+<div class="grid" id="active-grid"></div>
+
+<script>
+const API = '/dashboard/api';
+const API_KEY = localStorage.getItem('dashboard_api_key') || '';
+
+async function api(path, method = 'GET', body = null) {
+  const opts = {
+    method,
+    headers: { 'X-API-Key': API_KEY, 'Content-Type': 'application/json' }
+  };
+  if (body) opts.body = JSON.stringify(body);
+  const r = await fetch(API + path, opts);
+  return r.json();
+}
+
+function badge(label) {
+  const cls = label === 'active' ? 'active' : label === 'paused' ? 'paused' : 'archived';
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+function card(p, isPending) {
+  const div = document.createElement('div');
+  div.className = 'card' + (isPending ? ' pending' : '');
+  div.innerHTML = `
+    <span class="source-badge">${p.source || ''}</span>
+    <div class="card-name">${p.name}</div>
+    <div class="card-desc">${p.description || '<em style="color:#555">no description</em>'}</div>
+    <div class="meta">
+      ${p.path_pi ? `<div class="meta-row">📂 <span>${p.path_pi}</span></div>` : ''}
+      ${p.path_mac ? `<div class="meta-row">💻 <span>${p.path_mac}</span></div>` : ''}
+      ${p.served_at ? `<div class="meta-row">🌐 <a href="${p.served_at}" target="_blank">${p.served_at}</a></div>` : ''}
+      ${p.github_url ? `<div class="meta-row">🐙 <a href="${p.github_url}" target="_blank">${p.github_repo || p.github_url}</a></div>` : ''}
+      ${p.railway_url ? `<div class="meta-row">🚂 <a href="${p.railway_url}" target="_blank">${p.railway_url}</a></div>` : ''}
+      ${p.last_commit_date ? `<div class="meta-row">🕐 ${p.last_commit_date} — ${p.last_commit_message || ''}</div>` : ''}
+      ${!isPending ? `<div class="meta-row" style="margin-top:4px">${badge(p.status_label || 'active')}</div>` : ''}
+    </div>
+    ${p.tech_stack?.length ? `<div class="stack">${p.tech_stack.map(t => `<span class="stack-tag">${t}</span>`).join('')}</div>` : ''}
+    ${isPending ? `<div class="card-actions">
+      <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Add</button>
+      <button class="btn btn-ignore" onclick="ignore('${p.id}')">✗ Ignore</button>
+    </div>` : ''}
+  `;
+  return div;
+}
+
+async function approve(id) {
+  await api(`/projects/${id}/approve`, 'POST');
+  load();
+}
+
+async function ignore(id) {
+  await api(`/projects/${id}/ignore`, 'POST');
+  load();
+}
+
+async function load() {
+  const data = await api('/projects');
+  const pending = data.pending || [];
+  const projects = data.projects || [];
+
+  const pendingGrid = document.getElementById('pending-grid');
+  const pendingHeading = document.getElementById('pending-heading');
+  const activeGrid = document.getElementById('active-grid');
+
+  pendingHeading.style.display = pending.length ? '' : 'none';
+  pendingGrid.innerHTML = '';
+  pending.forEach(p => pendingGrid.appendChild(card(p, true)));
+
+  activeGrid.innerHTML = '';
+  if (projects.length === 0) {
+    activeGrid.innerHTML = '<p class="empty">No projects yet. Run the scanner or add one manually.</p>';
+  } else {
+    projects.forEach(p => activeGrid.appendChild(card(p, false)));
+  }
+
+  document.getElementById('last-updated').textContent =
+    `Last loaded: ${new Date().toLocaleTimeString()}  ·  ${projects.length} projects  ·  ${pending.length} pending`;
+}
+
+// Prompt for API key if not set
+if (!API_KEY) {
+  const key = prompt('Enter dashboard API key (set once, stored in browser):');
+  if (key) localStorage.setItem('dashboard_api_key', key);
+  location.reload();
+}
+
+load();
+setInterval(load, 30000); // refresh every 30s
+</script>
+</body>
+</html>

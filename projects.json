@@ -303,6 +303,31 @@
       "state": "approved",
       "added_at": "2026-03-08T14:03:46.366730+00:00",
       "updated_at": "2026-03-08T14:04:10.801962+00:00"
+    },
+    {
+      "id": "game1",
+      "name": "Game1 \u2014 Scrap Runner Map Designer",
+      "description": "Local 3D map designer and GLB asset library for the Scrap Runner game. Used to lay out post-apocalyptic game worlds using Three.js and export map data to a Raspberry Pi game server.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/Game1",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Three.js",
+        "JavaScript",
+        "HTML",
+        "GLB/glTF",
+        "Python HTTP Server"
+      ],
+      "source": "mac",
+      "state": "approved",
+      "added_at": "2026-03-08T13:59:28.026859+00:00",
+      "updated_at": "2026-03-08T14:04:27.600685+00:00"
     }
   ],
   "pending": [
@@ -352,31 +377,6 @@
       "state": "pending",
       "added_at": "2026-03-08T13:25:32.117899+00:00",
       "updated_at": "2026-03-08T13:54:13.080651+00:00"
-    },
-    {
-      "id": "game1",
-      "name": "Game1 \u2014 Scrap Runner Map Designer",
-      "description": "Local 3D map designer and GLB asset library for the Scrap Runner game. Used to lay out post-apocalyptic game worlds using Three.js and export map data to a Raspberry Pi game server.",
-      "path_pi": null,
-      "path_mac": "/Users/jenslennartsson/ai_projects/Game1",
-      "status_label": "active",
-      "github_repo": null,
-      "github_url": null,
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": null,
-      "last_commit_message": null,
-      "tech_stack": [
-        "Three.js",
-        "JavaScript",
-        "HTML",
-        "GLB/glTF",
-        "Python HTTP Server"
-      ],
-      "source": "mac",
-      "state": "pending",
-      "added_at": "2026-03-08T13:59:28.026859+00:00",
-      "updated_at": "2026-03-08T13:59:28.026859+00:00"
     },
     {
       "id": "sandynew",

@@ -185,11 +185,16 @@ function openCmd(p) {
 }
 
 function copyOpen(btn, cmd) {
-  navigator.clipboard.writeText(cmd).then(() => {
-    const orig = btn.textContent;
-    btn.textContent = '✓ Copied!';
-    setTimeout(() => btn.textContent = orig, 1500);
-  });
+  const ta = document.createElement('textarea');
+  ta.value = cmd;
+  ta.style.cssText = 'position:fixed;opacity:0';
+  document.body.appendChild(ta);
+  ta.select();
+  document.execCommand('copy');
+  document.body.removeChild(ta);
+  const orig = btn.textContent;
+  btn.textContent = '✓ Copied!';
+  setTimeout(() => btn.textContent = orig, 1500);
 }
 
 async function approve(id) {

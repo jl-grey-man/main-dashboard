@@ -358,8 +358,8 @@
     },
     {
       "id": "swedish-ai-new",
-      "name": "Swedish AI - SMB Intelligence System",
-      "description": "Autonomous research pipeline that crawls Swedish-language sources daily to identify small and medium businesses publicly expressing operational problems that AI automation could solve, delivering structured intelligence briefs with company contacts.",
+      "name": "Swedish AI SMB Intelligence System",
+      "description": "Autonomous daily research pipeline that crawls Swedish-language sources to identify SMBs publicly expressing operational problems AI could solve, delivering structured intelligence briefs with verified company contacts and actionable leads.",
       "path_pi": "/mnt/storage/swedish-ai-new",
       "path_mac": null,
       "status_label": "active",
@@ -371,14 +371,15 @@
       "last_commit_message": "Add setup instructions for Claude Code",
       "tech_stack": [
         "Python",
-        "Anthropic Claude API",
         "SQLite",
-        "pytest"
+        "Anthropic Claude API",
+        "pytest",
+        "FastAPI"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-08T13:25:32.117899+00:00",
-      "updated_at": "2026-03-08T13:54:13.080651+00:00"
+      "updated_at": "2026-03-08T14:12:26.168876+00:00"
     },
     {
       "id": "sandynew",

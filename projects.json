@@ -95,7 +95,7 @@
     {
       "id": "swedish-ai-new",
       "name": "Swedish AI - SMB Intelligence System",
-      "description": "Autonomous research pipeline that crawls Swedish-language sources daily to identify SMBs (10-249 employees) expressing operational problems solvable by AI, delivering structured intelligence briefs with verified contacts.",
+      "description": "Autonomous research pipeline that crawls Swedish-language sources daily to identify small and medium businesses publicly expressing operational problems that AI automation could solve, delivering structured intelligence briefs with company contacts.",
       "path_pi": "/mnt/storage/swedish-ai-new",
       "path_mac": null,
       "status_label": "active",
@@ -114,7 +114,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-08T13:25:32.117899+00:00",
-      "updated_at": "2026-03-08T13:50:38.388888+00:00"
+      "updated_at": "2026-03-08T13:54:13.080651+00:00"
     },
     {
       "id": "testgame",

@@ -53,7 +53,7 @@
     {
       "id": "theagency",
       "name": "The Agency",
-      "description": "A real-time visual AI agent office where 42 AI agents work as pixel characters in an isometric office, responding to tasks via Telegram and collaborating through a structured hierarchy enforced by a Python backend.",
+      "description": "A 42-agent AI office where pixel characters work in an isometric browser UI, routing tasks from Telegram through a CEO\u2192Lead\u2192Specialist hierarchy enforced structurally in Python, with each agent calling Claude Code CLI.",
       "path_pi": "/mnt/storage/theagency",
       "path_mac": null,
       "status_label": "active",
@@ -66,17 +66,18 @@
       "tech_stack": [
         "Python",
         "FastAPI",
-        "PIXI.js",
-        "JavaScript",
-        "SQLite",
         "WebSocket",
-        "Telegram",
-        "Claude Code CLI"
+        "SQLite",
+        "JavaScript",
+        "PIXI.js",
+        "Telegram Bot API",
+        "Claude Code CLI",
+        "systemd"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-08T13:54:40.612694+00:00"
+      "updated_at": "2026-03-08T14:12:55.072387+00:00"
     },
     {
       "id": "testgame",

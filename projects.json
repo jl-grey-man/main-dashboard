@@ -251,6 +251,35 @@
       "state": "pending",
       "added_at": "2026-03-08T13:59:28.026859+00:00",
       "updated_at": "2026-03-08T13:59:28.026859+00:00"
+    },
+    {
+      "id": "projectviewer",
+      "name": "Project Viewer",
+      "description": "A unified dashboard for tracking and monitoring software projects across multiple machines, automatically discovering projects with CLAUDE.md files and providing health monitoring, git integration, and task tracking.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/ProjectViewer",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-06",
+      "last_commit_message": "Task 22: Create Documentation",
+      "tech_stack": [
+        "React",
+        "FastAPI",
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "Nginx",
+        "SQLAlchemy",
+        "Pydantic",
+        "Alembic"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T13:59:45.378872+00:00",
+      "updated_at": "2026-03-08T13:59:45.378872+00:00"
     }
   ]
 }

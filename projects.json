@@ -204,6 +204,34 @@
       "state": "approved",
       "added_at": "2026-03-08T14:01:23.260989+00:00",
       "updated_at": "2026-03-08T14:02:51.243511+00:00"
+    },
+    {
+      "id": "datavault",
+      "name": "Lyst DataVault",
+      "description": "GDPR-compliant AI app platform for Swedish SMBs that acts as a privacy gateway, pseudonymizing PII before sending data to cloud LLMs so personal data never leaves the local network.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/datavault",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-02-27",
+      "last_commit_message": "Fix app store: only filesearch installable, others show Kommer snart",
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "Jinja2",
+        "HTMX",
+        "spaCy",
+        "Presidio",
+        "SQLite",
+        "pytest"
+      ],
+      "source": "mac",
+      "state": "approved",
+      "added_at": "2026-03-08T14:02:03.438487+00:00",
+      "updated_at": "2026-03-08T14:02:57.387951+00:00"
     }
   ],
   "pending": [
@@ -321,34 +349,6 @@
       "state": "pending",
       "added_at": "2026-03-08T14:01:45.905671+00:00",
       "updated_at": "2026-03-08T14:01:45.905671+00:00"
-    },
-    {
-      "id": "datavault",
-      "name": "Lyst DataVault",
-      "description": "GDPR-compliant AI app platform for Swedish SMBs that acts as a privacy gateway, pseudonymizing PII before sending data to cloud LLMs so personal data never leaves the local network.",
-      "path_pi": null,
-      "path_mac": "/Users/jenslennartsson/ai_projects/datavault",
-      "status_label": "active",
-      "github_repo": null,
-      "github_url": null,
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": "2026-02-27",
-      "last_commit_message": "Fix app store: only filesearch installable, others show Kommer snart",
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "Jinja2",
-        "HTMX",
-        "spaCy",
-        "Presidio",
-        "SQLite",
-        "pytest"
-      ],
-      "source": "mac",
-      "state": "pending",
-      "added_at": "2026-03-08T14:02:03.438487+00:00",
-      "updated_at": "2026-03-08T14:02:03.438487+00:00"
     }
   ]
 }

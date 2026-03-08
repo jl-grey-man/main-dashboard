@@ -173,6 +173,9 @@ def claude_analyse(path: Path) -> dict | None:
     context = gather_context(path)
     prompt = PROMPT_TEMPLATE.format(name=path.name, context=context)
 
+    # Strip surrogates that break UTF-8 encoding in subprocess stdin
+    prompt = prompt.encode("utf-8", errors="replace").decode("utf-8")
+
     env = {**os.environ, "CLAUDECODE": ""}  # unset CLAUDECODE so nested calls work
     try:
         r = subprocess.run(

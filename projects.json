@@ -3,7 +3,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": null,
+      "description": "A React web application for audio/chord-related functionality, likely a chord player or music theory tool. Built with Vite and TypeScript.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -14,14 +14,14 @@
       "last_commit_date": "2026-03-08",
       "last_commit_message": "feat: PWA manifest, icon \u2014 Hichord v1 complete",
       "tech_stack": [
+        "React",
         "TypeScript",
-        "Vite",
-        "React"
+        "Vite"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-08T13:41:12.149645+00:00"
+      "updated_at": "2026-03-08T13:49:49.340261+00:00"
     },
     {
       "id": "projectxray",

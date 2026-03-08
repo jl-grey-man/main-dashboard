@@ -34,7 +34,7 @@
       background: #2a2a2a; color: #aaa; font-size: 0.65rem;
       padding: 2px 6px; border-radius: 4px;
     }
-    .card-actions { display: flex; gap: 8px; margin-top: 12px; }
+    .card-actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
     .btn {
       padding: 4px 12px; border-radius: 4px; border: none;
       cursor: pointer; font-size: 0.75rem; font-weight: 500;
@@ -43,8 +43,23 @@
     .btn-approve:hover { background: #2a6a2a; }
     .btn-ignore { background: #2a1a1a; color: #f44336; }
     .btn-ignore:hover { background: #4a2a2a; }
+    .btn-edit { background: #1a2a3a; color: #4a9eff; margin-left: auto; }
+    .btn-edit:hover { background: #2a3a4a; }
+    .btn-save { background: #1a3a4a; color: #4a9eff; }
+    .btn-save:hover { background: #2a4a5a; }
+    .btn-cancel { background: #2a2a2a; color: #888; }
+    .btn-cancel:hover { background: #3a3a3a; }
     .source-badge { position: absolute; top: 12px; right: 12px; font-size: 0.65rem; color: #444; }
     .empty { color: #444; font-size: 0.85rem; padding: 16px 0; }
+    /* Edit form */
+    .edit-form { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+    .edit-form input, .edit-form textarea, .edit-form select {
+      background: #111; border: 1px solid #333; border-radius: 4px;
+      color: #e0e0e0; font-size: 0.75rem; padding: 6px 8px; width: 100%;
+      font-family: inherit;
+    }
+    .edit-form textarea { resize: vertical; min-height: 60px; }
+    .edit-form label { font-size: 0.65rem; color: #555; margin-bottom: -4px; }
   </style>
 </head>
 <body>
@@ -80,6 +95,8 @@ function badge(label) {
 function card(p, isPending) {
   const div = document.createElement('div');
   div.className = 'card' + (isPending ? ' pending' : '');
+  div.dataset.id = p.id;
+
   div.innerHTML = `
     <span class="source-badge">${p.source || ''}</span>
     <div class="card-name">${p.name}</div>
@@ -94,12 +111,61 @@ function card(p, isPending) {
       ${!isPending ? `<div class="meta-row" style="margin-top:4px">${badge(p.status_label || 'active')}</div>` : ''}
     </div>
     ${p.tech_stack?.length ? `<div class="stack">${p.tech_stack.map(t => `<span class="stack-tag">${t}</span>`).join('')}</div>` : ''}
-    ${isPending ? `<div class="card-actions">
-      <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Add</button>
-      <button class="btn btn-ignore" onclick="ignore('${p.id}')">✗ Ignore</button>
-    </div>` : ''}
+    <div class="card-actions">
+      ${isPending ? `
+        <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Add</button>
+        <button class="btn btn-ignore" onclick="ignore('${p.id}')">✗ Ignore</button>
+      ` : ''}
+      <button class="btn btn-edit" onclick="toggleEdit(this, '${p.id}', ${JSON.stringify(p).replace(/"/g, '&quot;')})">Edit</button>
+    </div>
+    <div class="edit-form" style="display:none">
+      <label>Name</label>
+      <input class="ef-name" value="${(p.name || '').replace(/"/g, '&quot;')}" />
+      <label>Description</label>
+      <textarea class="ef-desc">${p.description || ''}</textarea>
+      <label>Served at URL</label>
+      <input class="ef-served" value="${(p.served_at || '').replace(/"/g, '&quot;')}" placeholder="http://..." />
+      <label>Status</label>
+      <select class="ef-status">
+        <option value="active" ${(p.status_label||'active')==='active'?'selected':''}>active</option>
+        <option value="paused" ${p.status_label==='paused'?'selected':''}>paused</option>
+        <option value="archived" ${p.status_label==='archived'?'selected':''}>archived</option>
+      </select>
+      <div style="display:flex;gap:8px;margin-top:4px">
+        <button class="btn btn-save" onclick="saveEdit('${p.id}', this)">Save</button>
+        <button class="btn btn-cancel" onclick="cancelEdit(this)">Cancel</button>
+      </div>
+    </div>
   `;
   return div;
+}
+
+function toggleEdit(btn, id, p) {
+  const cardEl = btn.closest('.card');
+  const form = cardEl.querySelector('.edit-form');
+  form.style.display = form.style.display === 'none' ? '' : 'none';
+  btn.textContent = form.style.display === 'none' ? 'Edit' : 'Cancel';
+}
+
+function cancelEdit(btn) {
+  const form = btn.closest('.edit-form');
+  form.style.display = 'none';
+  const editBtn = form.closest('.card').querySelector('.btn-edit');
+  if (editBtn) editBtn.textContent = 'Edit';
+}
+
+async function saveEdit(id, btn) {
+  const form = btn.closest('.edit-form');
+  const fields = {
+    name: form.querySelector('.ef-name').value.trim(),
+    description: form.querySelector('.ef-desc').value.trim(),
+    served_at: form.querySelector('.ef-served').value.trim() || null,
+    status_label: form.querySelector('.ef-status').value,
+  };
+  btn.textContent = 'Saving...';
+  btn.disabled = true;
+  await api(`/projects/${id}/update`, 'POST', fields);
+  load();
 }
 
 async function approve(id) {
@@ -136,7 +202,6 @@ async function load() {
     `Last loaded: ${new Date().toLocaleTimeString()}  ·  ${projects.length} projects  ·  ${pending.length} pending`;
 }
 
-// Prompt for API key if not set
 if (!API_KEY) {
   const key = prompt('Enter dashboard API key (set once, stored in browser):');
   if (key) localStorage.setItem('dashboard_api_key', key);
@@ -144,7 +209,7 @@ if (!API_KEY) {
 }
 
 load();
-setInterval(load, 30000); // refresh every 30s
+setInterval(load, 30000);
 </script>
 </body>
 </html>

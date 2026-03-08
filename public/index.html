@@ -49,6 +49,9 @@
     .btn-save:hover { background: #2a4a5a; }
     .btn-cancel { background: #2a2a2a; color: #888; }
     .btn-cancel:hover { background: #3a3a3a; }
+    .btn-open { background: #1a2a1a; color: #4caf50; font-family: monospace; font-size: 0.7rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .btn-open:hover { background: #2a3a2a; }
+    .btn-open:active { background: #0a2a0a; }
     .source-badge {
       position: absolute; top: 10px; right: 12px;
       font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em;
@@ -124,6 +127,7 @@ function card(p, isPending) {
       ` : ''}
       <button class="btn btn-edit" onclick="toggleEdit(this, '${p.id}', ${JSON.stringify(p).replace(/"/g, '&quot;')})">Edit</button>
     </div>
+    ${openCmd(p) ? `<button class="btn btn-open" style="margin-top:8px;width:100%" onclick="copyOpen(this,'${openCmd(p).replace(/'/g, "\\'")}')">📋 ${openCmd(p)}</button>` : ''}
     <div class="edit-form" style="display:none">
       <label>Name</label>
       <input class="ef-name" value="${(p.name || '').replace(/"/g, '&quot;')}" />
@@ -172,6 +176,20 @@ async function saveEdit(id, btn) {
   btn.disabled = true;
   await api(`/projects/${id}/update`, 'POST', fields);
   load();
+}
+
+function openCmd(p) {
+  if (p.path_mac) return `cd ${p.path_mac} && agentdeck`;
+  if (p.path_pi)  return `ssh jens@100.72.180.20 "cd ${p.path_pi} && claude"`;
+  return null;
+}
+
+function copyOpen(btn, cmd) {
+  navigator.clipboard.writeText(cmd).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = '✓ Copied!';
+    setTimeout(() => btn.textContent = orig, 1500);
+  });
 }
 
 async function approve(id) {

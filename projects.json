@@ -71,8 +71,8 @@
   "pending": [
     {
       "id": "redacted",
-      "name": "Static Web Game",
-      "description": "A browser-based HTML game served as a static web page, with a separate index entry point.",
+      "name": "Browser Game",
+      "description": "A browser-based game served as static HTML files, with a landing page and a dedicated game page.",
       "path_pi": "/mnt/storage/redacted",
       "path_mac": null,
       "status_label": "active",
@@ -90,7 +90,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-08T13:25:31.186509+00:00",
-      "updated_at": "2026-03-08T13:50:22.632613+00:00"
+      "updated_at": "2026-03-08T13:54:01.078410+00:00"
     },
     {
       "id": "swedish-ai-new",

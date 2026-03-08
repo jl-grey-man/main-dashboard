@@ -50,8 +50,8 @@
     },
     {
       "id": "theagency",
-      "name": "theagency",
-      "description": null,
+      "name": "The Agency",
+      "description": "A real-time visual AI agent office where 42 AI agents work as pixel characters in an isometric office, responding to tasks via Telegram and collaborating through a structured hierarchy enforced by a Python backend.",
       "path_pi": "/mnt/storage/theagency",
       "path_mac": null,
       "status_label": "active",
@@ -61,11 +61,20 @@
       "served_at": null,
       "last_commit_date": "2026-03-07",
       "last_commit_message": "feat: CosmosBeat Mobile \u2014 loop zone redesign + instrument overhaul",
-      "tech_stack": [],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "PIXI.js",
+        "JavaScript",
+        "SQLite",
+        "WebSocket",
+        "Telegram",
+        "Claude Code CLI"
+      ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-08T13:50:53.628387+00:00"
+      "updated_at": "2026-03-08T13:54:40.612694+00:00"
     }
   ],
   "pending": [

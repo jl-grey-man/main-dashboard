@@ -368,6 +368,29 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:17.413173+00:00",
       "updated_at": "2026-03-08T14:03:17.413173+00:00"
+    },
+    {
+      "id": "podpal-sync",
+      "name": "PodPal Sync",
+      "description": "An iOS/macOS application for syncing podcast data, built as a native Apple platform app using Swift and Xcode.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/podpal-sync",
+      "status_label": "active",
+      "github_repo": "jl-grey-man/podpal-sync",
+      "github_url": "https://github.com/jl-grey-man/podpal-sync",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-05",
+      "last_commit_message": "fix: bump deployment target to macOS 14 (@Observable requires 14+)",
+      "tech_stack": [
+        "Swift",
+        "Xcode",
+        "XcodeGen"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T14:03:32.350897+00:00",
+      "updated_at": "2026-03-08T14:03:32.350897+00:00"
     }
   ]
 }

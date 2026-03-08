@@ -16,7 +16,7 @@ import urllib.error
 
 PI_API_URL = "http://100.72.180.20/dashboard/api"
 API_KEY = os.getenv("DASHBOARD_API_KEY", "")
-CLAUDE_BIN = os.getenv("CLAUDE_BIN", "/usr/local/bin/claude")
+CLAUDE_BIN = os.getenv("CLAUDE_BIN", "/Users/jenslennartsson/.local/bin/claude")
 
 # Auto-detect Mac projects root
 CANDIDATES = [
@@ -111,10 +111,14 @@ def gather_context(path: Path) -> str:
     except Exception:
         pass
 
-    for fname in ["README.md", "CLAUDE.md"]:
-        f = path / fname
-        if f.exists():
-            parts.append(f"\n--- {fname} ---\n{read_snippet(f, 2500)}")
+    # Read all markdown files at root level (README, CLAUDE.md, CHECKLIST, PROJECT, GAMEPLAN, etc.)
+    md_files = sorted(path.glob("*.md")) + sorted(path.glob("*.MD"))
+    seen = set()
+    for f in md_files:
+        if f.name in seen:
+            continue
+        seen.add(f.name)
+        parts.append(f"\n--- {f.name} ---\n{read_snippet(f, 1500)}")
 
     pkg = path / "package.json"
     if pkg.exists():

@@ -61,6 +61,25 @@
       "state": "pending",
       "added_at": "2026-03-08T13:25:31.186509+00:00",
       "updated_at": "2026-03-08T13:25:31.186509+00:00"
+    },
+    {
+      "id": "swedish-ai-new",
+      "name": "swedish-ai-new",
+      "description": null,
+      "path_pi": "/mnt/storage/swedish-ai-new",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": "jl-grey-man/swedish-a",
+      "github_url": "https://github.com/jl-grey-man/swedish-a",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-02-18",
+      "last_commit_message": "Add setup instructions for Claude Code",
+      "tech_stack": [],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-08T13:25:32.117899+00:00",
+      "updated_at": "2026-03-08T13:25:32.117899+00:00"
     }
   ]
 }

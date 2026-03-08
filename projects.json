@@ -25,8 +25,8 @@
     },
     {
       "id": "projectxray",
-      "name": "projectxray",
-      "description": null,
+      "name": "X-Ray Agent Workflow Visualizer",
+      "description": "A visual tool that scans Claude Code projects and produces interactive flowcharts showing agent delegation chains, tool assignments, hard vs soft rules, and workflow warnings. Includes a prompt tracer to predict how prompts flow through agents.",
       "path_pi": "/mnt/storage/projectxray",
       "path_mac": null,
       "status_label": "active",
@@ -36,11 +36,16 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [],
+      "tech_stack": [
+        "Python",
+        "Mermaid.js",
+        "HTML",
+        "JavaScript"
+      ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:30.246109+00:00",
-      "updated_at": "2026-03-08T13:41:15.479673+00:00"
+      "updated_at": "2026-03-08T13:50:06.270140+00:00"
     },
     {
       "id": "theagency",

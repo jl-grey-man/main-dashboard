@@ -80,6 +80,25 @@
       "state": "pending",
       "added_at": "2026-03-08T13:25:32.117899+00:00",
       "updated_at": "2026-03-08T13:25:32.117899+00:00"
+    },
+    {
+      "id": "testgame",
+      "name": "testgame",
+      "description": null,
+      "path_pi": "/mnt/storage/testgame",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-08T13:25:33.081553+00:00",
+      "updated_at": "2026-03-08T13:25:33.081553+00:00"
     }
   ]
 }

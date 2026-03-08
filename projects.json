@@ -1,4 +1,28 @@
 {
   "projects": [],
-  "pending": []
+  "pending": [
+    {
+      "id": "hichord",
+      "name": "Hichord",
+      "description": null,
+      "path_pi": "/mnt/storage/Hichord",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-08",
+      "last_commit_message": "feat: PWA manifest, icon \u2014 Hichord v1 complete",
+      "tech_stack": [
+        "Vite",
+        "React",
+        "TypeScript"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-08T13:25:29.190145+00:00",
+      "updated_at": "2026-03-08T13:25:29.190145+00:00"
+    }
+  ]
 }

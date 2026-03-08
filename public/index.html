@@ -127,7 +127,7 @@ function card(p, isPending) {
       ` : ''}
       <button class="btn btn-edit" onclick="toggleEdit(this, '${p.id}', ${JSON.stringify(p).replace(/"/g, '&quot;')})">Edit</button>
     </div>
-    ${openCmd(p) ? `<button class="btn btn-open" style="margin-top:8px;width:100%" onclick="copyOpen(this,'${openCmd(p).replace(/'/g, "\\'")}')">📋 ${openCmd(p)}</button>` : ''}
+    ${openCmd(p) ? `<button class="btn btn-open" style="margin-top:8px;width:100%" data-cmd="${openCmd(p).replace(/"/g, '&quot;')}">📋 ${openCmd(p)}</button>` : ''}
     <div class="edit-form" style="display:none">
       <label>Name</label>
       <input class="ef-name" value="${(p.name || '').replace(/"/g, '&quot;')}" />
@@ -178,24 +178,37 @@ async function saveEdit(id, btn) {
   load();
 }
 
+// Remove old inline handler (no longer used)
+function copyOpen() {}
+
 function openCmd(p) {
   if (p.path_mac) return `cd ${p.path_mac} && agentdeck`;
   if (p.path_pi)  return `ssh jens@100.72.180.20 "cd ${p.path_pi} && claude"`;
   return null;
 }
 
-function copyOpen(btn, cmd) {
+// Copy-to-clipboard via delegated click on .btn-open
+document.addEventListener('click', function(e) {
+  const btn = e.target.closest('.btn-open');
+  if (!btn) return;
+  const cmd = btn.dataset.cmd;
+  if (!cmd) return;
+
   const ta = document.createElement('textarea');
   ta.value = cmd;
-  ta.style.cssText = 'position:fixed;opacity:0';
+  ta.style.cssText = 'position:fixed;top:0;left:0;width:2px;height:2px;opacity:0.01;border:0;padding:0';
   document.body.appendChild(ta);
+  ta.focus();
   ta.select();
-  document.execCommand('copy');
+  ta.setSelectionRange(0, 99999);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch(e) {}
   document.body.removeChild(ta);
+
   const orig = btn.textContent;
-  btn.textContent = '✓ Copied!';
-  setTimeout(() => btn.textContent = orig, 1500);
-}
+  btn.textContent = ok ? '✓ Copied!' : '⚠ Select manually';
+  setTimeout(() => btn.textContent = orig, 2000);
+});
 
 async function approve(id) {
   await api(`/projects/${id}/approve`, 'POST');

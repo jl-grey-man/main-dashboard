@@ -149,6 +149,31 @@
       "state": "pending",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
       "updated_at": "2026-03-08T13:54:26.625724+00:00"
+    },
+    {
+      "id": "--comfy--",
+      "name": "ComfyUI RunPod Setup",
+      "description": "Configuration, scripts, and tooling for running ComfyUI on a RunPod GPU pod (RTX 5090), including a LoRA/model catalog, prompt builder UIs, and workflow management.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/- COMFY -",
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-01",
+      "last_commit_message": "feat: show active LoRAs panel below prompt output",
+      "tech_stack": [
+        "ComfyUI",
+        "RunPod",
+        "HTML",
+        "Bash",
+        "Python"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T13:58:48.963138+00:00",
+      "updated_at": "2026-03-08T13:58:48.963138+00:00"
     }
   ]
 }

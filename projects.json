@@ -174,6 +174,30 @@
       "state": "pending",
       "added_at": "2026-03-08T13:58:48.963138+00:00",
       "updated_at": "2026-03-08T13:58:48.963138+00:00"
+    },
+    {
+      "id": "--podpal--",
+      "name": "Podpal",
+      "description": "A Go web app that lets users patch custom boot logos into Rockbox firmware for iPod devices, supporting 10 iPod models with various pixel formats.",
+      "path_pi": null,
+      "path_mac": "/Users/jenslennartsson/ai_projects/- Podpal -",
+      "status_label": "active",
+      "github_repo": "jl-grey-man/podpal",
+      "github_url": "https://github.com/jl-grey-man/podpal",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-05",
+      "last_commit_message": "Switch to IBM Plex Mono font for better readability",
+      "tech_stack": [
+        "Go",
+        "HTMX",
+        "HTML Templates",
+        "Chi Router"
+      ],
+      "source": "mac",
+      "state": "pending",
+      "added_at": "2026-03-08T13:59:01.989683+00:00",
+      "updated_at": "2026-03-08T13:59:01.989683+00:00"
     }
   ]
 }

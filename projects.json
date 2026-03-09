@@ -359,7 +359,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "A cooperative veterinary chain concept for Sweden \u2014 a member-owned economic association model to provide affordable veterinary care as an alternative to private equity-owned chains.",
+      "description": "A business plan and pitch for a Swedish customer-owned veterinary cooperative (ekonomisk f\u00f6rening) as an alternative to private equity-owned veterinary chains, aiming to provide affordable veterinary care through a democratic ownership model.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -375,7 +375,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-09T10:43:39.444207+00:00"
+      "updated_at": "2026-03-09T10:47:00.243213+00:00"
     },
     {
       "id": "sandy2",

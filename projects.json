@@ -338,13 +338,13 @@
       "source": "mac",
       "state": "approved",
       "added_at": "2026-03-08T14:03:32.350897+00:00",
-      "updated_at": "2026-03-09T11:13:04.879068+00:00",
+      "updated_at": "2026-03-09T11:13:07.245857+00:00",
       "checklist_blocks": [
         {
           "name": "Phase 1: Core MVP \u2705 Complete",
           "checked": 34,
           "total": 34,
-          "weight": 0,
+          "weight": 45,
           "sections": [
             "Data Models",
             "Storage",
@@ -358,14 +358,14 @@
           "name": "Phase 2: Hardware Validation",
           "checked": 0,
           "total": 13,
-          "weight": 0,
+          "weight": 20,
           "sections": []
         },
         {
           "name": "Phase 3: UX Polish",
           "checked": 0,
           "total": 20,
-          "weight": 0,
+          "weight": 35,
           "sections": [
             "Sequoia 15.4.1+ Mount Workaround",
             "iFlash Corruption Warning",
@@ -395,8 +395,9 @@
           ]
         }
       ],
-      "progress": 36.2,
-      "progress_updated": "2026-03-09T11:13:04.879068+00:00"
+      "progress": 45,
+      "progress_updated": "2026-03-09T11:13:07.200Z",
+      "checklist_tracking": true
     },
     {
       "id": "promptgen",

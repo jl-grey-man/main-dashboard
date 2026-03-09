@@ -720,6 +720,33 @@
       "state": "pending",
       "added_at": "2026-03-09T10:44:27.141908+00:00",
       "updated_at": "2026-03-09T15:03:48.805652+00:00"
+    },
+    {
+      "id": "jobbsearch",
+      "name": "Lyst Prospector",
+      "description": "Autonomous B2B opportunity discovery system that scrapes Swedish company directories, analyzes prospects with LLM reasoning, finds contact persons, and drafts personalized outreach emails \u2014 with a human review loop for quality control.",
+      "path_pi": "/mnt/storage/jobbsearch",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Claude API",
+        "OpenRouter",
+        "BeautifulSoup",
+        "Google Maps API"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-09T17:03:15.589793+00:00",
+      "updated_at": "2026-03-09T17:03:15.589793+00:00"
     }
   ]
 }

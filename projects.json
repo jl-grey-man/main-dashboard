@@ -421,6 +421,34 @@
       "state": "pending",
       "added_at": "2026-03-09T10:40:47.106480+00:00",
       "updated_at": "2026-03-09T10:40:54.264554+00:00"
+    },
+    {
+      "id": "sandy2",
+      "name": "Sandy 2 \u2014 Personal AI Assistant",
+      "description": "A Telegram-based personal AI assistant powered by the Claude Code SDK (Max subscription), with persistent memory, file system tools, email integration via ProtonMail, web research, and a web dashboard. Built for Jens as an ADHD coach and general-purpose assistant running on a Raspberry Pi.",
+      "path_pi": "/home/jens/sandy2",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "Claude Code SDK",
+        "Telegram Bot API",
+        "Whisper",
+        "IMAP/SMTP",
+        "nginx",
+        "systemd",
+        "FastAPI"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-09T10:41:01.530105+00:00",
+      "updated_at": "2026-03-09T10:41:01.530105+00:00"
     }
   ]
 }

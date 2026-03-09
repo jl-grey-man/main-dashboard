@@ -51,7 +51,7 @@
     {
       "id": "projectxray",
       "name": "Project X-Ray",
-      "description": "A visual debugging tool that scans Claude Code projects and renders their agent workflow, delegation chains, and configuration layers as an interactive flowchart with a prompt tracer and impact analyzer.",
+      "description": "A visual debugging tool that scans Claude Code projects and renders their agent workflows, delegation chains, and configuration layers as an interactive flowchart, with a prompt tracer to predict how prompts flow through agents.",
       "path_pi": "/mnt/storage/projectxray",
       "path_mac": null,
       "status_label": "active",
@@ -70,7 +70,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:30.246109+00:00",
-      "updated_at": "2026-03-09T05:00:24.116267+00:00"
+      "updated_at": "2026-03-09T07:00:22.345497+00:00"
     },
     {
       "id": "theagency",

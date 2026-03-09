@@ -103,7 +103,7 @@
     {
       "id": "testgame",
       "name": "Scrap Runner",
-      "description": "A Mad Max-style isometric scrap collecting browser game where you drive a junker car through a ruined city, looting wrecks and dragging parts onto your car to upgrade it.",
+      "description": "Mad Max-style isometric scrap collecting game where you drive a junker car through a ruined city, loot wrecks, and drag parts onto your car to upgrade it.",
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -118,12 +118,12 @@
         "Three.js",
         "JavaScript",
         "ES Modules",
-        "HTML5 Canvas"
+        "Python HTTP Server"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-09T05:00:34.209307+00:00"
+      "updated_at": "2026-03-09T07:00:30.825267+00:00"
     },
     {
       "id": "--podpal--",

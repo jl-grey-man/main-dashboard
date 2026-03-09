@@ -699,7 +699,7 @@
     {
       "id": "backend",
       "name": "The Agency Backend",
-      "description": "A FastAPI-based orchestration backend for a multi-agent AI system that dispatches tasks to Claude CLI agents via MCP, manages workflows, reminders, audit trails, and communicates progress through a Telegram bridge.",
+      "description": "FastAPI-based orchestration backend for a multi-agent AI system, managing Claude CLI agent dispatch, Telegram integration, audit logging, reminders, and weekly reporting.",
       "path_pi": "/mnt/storage/theagency/backend",
       "path_mac": null,
       "status_label": "active",
@@ -712,16 +712,16 @@
       "tech_stack": [
         "Python",
         "FastAPI",
-        "WebSocket",
         "SQLite",
+        "WebSocket",
+        "asyncio",
         "Claude CLI",
-        "MCP",
-        "asyncio"
+        "MCP"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T10:44:27.141908+00:00",
-      "updated_at": "2026-03-09T19:03:52.085368+00:00"
+      "updated_at": "2026-03-09T21:03:57.918498+00:00"
     },
     {
       "id": "jobbsearch",

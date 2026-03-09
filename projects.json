@@ -377,31 +377,6 @@
   ],
   "pending": [
     {
-      "id": "swedish-ai-new",
-      "name": "Swedish AI SMB Intelligence System",
-      "description": "Autonomous daily research pipeline that crawls Swedish-language sources to identify SMBs publicly expressing operational problems AI could solve, delivering structured intelligence briefs with verified company contacts and actionable leads.",
-      "path_pi": "/mnt/storage/swedish-ai-new",
-      "path_mac": null,
-      "status_label": "active",
-      "github_repo": "jl-grey-man/swedish-a",
-      "github_url": "https://github.com/jl-grey-man/swedish-a",
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": "2026-02-18",
-      "last_commit_message": "Add setup instructions for Claude Code",
-      "tech_stack": [
-        "Python",
-        "SQLite",
-        "Anthropic Claude API",
-        "pytest",
-        "FastAPI"
-      ],
-      "source": "pi",
-      "state": "pending",
-      "added_at": "2026-03-08T13:25:32.117899+00:00",
-      "updated_at": "2026-03-08T14:12:26.168876+00:00"
-    },
-    {
       "id": "sandynew",
       "name": "SandyNew",
       "description": null,

@@ -399,7 +399,7 @@
     {
       "id": "sandy",
       "name": "Sandy ADHD Coach",
-      "description": "A Telegram bot and web dashboard that acts as an AI-powered ADHD coach, helping neurodivergent users manage tasks, track patterns, and build accountability systems using a Rust-based LLM agent framework.",
+      "description": "A Telegram bot and web dashboard that acts as an AI-powered ADHD coach, helping neurodivergent users manage tasks, track patterns, set reminders, and build accountability systems using a Rust backend with LLM orchestration.",
       "path_pi": "/home/jens/sandy",
       "path_mac": null,
       "status_label": "active",
@@ -414,14 +414,13 @@
         "Tokio",
         "Telegram Bot API",
         "OpenRouter",
-        "Claude Sonnet",
-        "YAML",
+        "Claude",
         "nginx"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T10:40:47.106480+00:00",
-      "updated_at": "2026-03-09T10:42:42.860550+00:00"
+      "updated_at": "2026-03-09T10:43:46.148170+00:00"
     },
     {
       "id": "sandy2",

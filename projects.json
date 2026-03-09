@@ -352,6 +352,27 @@
       "state": "approved",
       "added_at": "2026-03-08T13:59:28.026859+00:00",
       "updated_at": "2026-03-08T14:04:27.600685+00:00"
+    },
+    {
+      "id": "samvet",
+      "name": "SamVet",
+      "description": "A business plan and pitch website for SamVet, a proposed customer-owned (cooperative) veterinary clinic chain in Sweden aimed at breaking the duopoly of private equity-owned chains through democratic membership and transparent pricing.",
+      "path_pi": "/mnt/storage/SamVet",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": "jl-grey-man/samve",
+      "github_url": "https://github.com/jl-grey-man/samve",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-08",
+      "last_commit_message": "Rename to index.html",
+      "tech_stack": [
+        "HTML"
+      ],
+      "source": "pi",
+      "state": "approved",
+      "added_at": "2026-03-09T09:00:20.581247+00:00",
+      "updated_at": "2026-03-09T09:45:31.473148+00:00"
     }
   ],
   "pending": [
@@ -440,27 +461,6 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:05.378297+00:00",
       "updated_at": "2026-03-08T14:03:05.378297+00:00"
-    },
-    {
-      "id": "samvet",
-      "name": "SamVet",
-      "description": "A business plan and pitch website for SamVet, a proposed customer-owned (cooperative) veterinary clinic chain in Sweden aimed at breaking the duopoly of private equity-owned chains through democratic membership and transparent pricing.",
-      "path_pi": "/mnt/storage/SamVet",
-      "path_mac": null,
-      "status_label": "active",
-      "github_repo": "jl-grey-man/samve",
-      "github_url": "https://github.com/jl-grey-man/samve",
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": "2026-03-08",
-      "last_commit_message": "Rename to index.html",
-      "tech_stack": [
-        "HTML"
-      ],
-      "source": "pi",
-      "state": "pending",
-      "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-09T09:00:20.581247+00:00"
     }
   ]
 }

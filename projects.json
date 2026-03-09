@@ -474,7 +474,7 @@
     {
       "id": "projects",
       "name": "Book Trend",
-      "description": "A Python script that fetches popular books by category from the Open Library API and generates a static HTML page displaying them by topic (Tech, Money, Self-Development, Entrepreneurship, ADHD).",
+      "description": "A Python script that fetches popular books from the Open Library API across multiple categories (Technology, Personal Finance, Self-Development, Entrepreneurship, ADHD) and generates a responsive HTML page with category tabs, book covers, ratings, and descriptions served via nginx.",
       "path_pi": "/home/jens/projects",
       "path_mac": null,
       "status_label": "active",
@@ -488,12 +488,13 @@
         "Python",
         "Open Library API",
         "HTML",
-        "CSS"
+        "CSS",
+        "JavaScript"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T10:41:52.712934+00:00",
-      "updated_at": "2026-03-09T10:41:52.712934+00:00"
+      "updated_at": "2026-03-09T10:42:18.075355+00:00"
     }
   ]
 }

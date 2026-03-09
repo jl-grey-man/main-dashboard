@@ -22,13 +22,13 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T19:28:01.907889+00:00",
-      "updated_at": "2026-03-09T11:57:41.309616+00:00",
+      "updated_at": "2026-03-09T11:57:42.381405+00:00",
       "checklist_blocks": [
         {
           "name": "Phase 1: Core Infrastructure",
           "checked": 8,
           "total": 8,
-          "weight": 0,
+          "weight": 25,
           "sections": [],
           "tasks": [
             {
@@ -69,7 +69,7 @@
           "name": "Phase 2: Project Intelligence",
           "checked": 6,
           "total": 6,
-          "weight": 0,
+          "weight": 25,
           "sections": [],
           "tasks": [
             {
@@ -102,7 +102,7 @@
           "name": "Phase 3: Feature Completeness",
           "checked": 7,
           "total": 9,
-          "weight": 0,
+          "weight": 25,
           "sections": [],
           "tasks": [
             {
@@ -147,7 +147,7 @@
           "name": "Phase 4: Polish & Reliability",
           "checked": 0,
           "total": 4,
-          "weight": 0,
+          "weight": 25,
           "sections": [],
           "tasks": [
             {
@@ -169,8 +169,9 @@
           ]
         }
       ],
-      "progress": 77.8,
-      "progress_updated": "2026-03-09T11:57:41.309616+00:00"
+      "progress": 69.4,
+      "progress_updated": "2026-03-09T11:57:42.322Z",
+      "checklist_tracking": true
     },
     {
       "id": "hichord",

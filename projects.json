@@ -448,31 +448,6 @@
       "updated_at": "2026-03-09T10:42:30.750463+00:00"
     },
     {
-      "id": "projects",
-      "name": "Book Trend",
-      "description": "A Python script that fetches popular books from the Open Library API across multiple categories (Technology, Personal Finance, Self-Development, Entrepreneurship, ADHD) and generates a responsive HTML page with category tabs, book covers, ratings, and descriptions served via nginx.",
-      "path_pi": "/home/jens/projects",
-      "path_mac": null,
-      "status_label": "active",
-      "github_repo": null,
-      "github_url": null,
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": null,
-      "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "Open Library API",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "source": "pi",
-      "state": "pending",
-      "added_at": "2026-03-09T10:41:52.712934+00:00",
-      "updated_at": "2026-03-09T10:42:18.075355+00:00"
-    },
-    {
       "id": "backend",
       "name": "The Agency Backend",
       "description": "FastAPI backend for 'The Agency' multi-agent AI orchestration system, routing tasks to specialized Claude Code agents via WebSocket, REST API, and an MCP dispatch server. Handles agent monitoring, audit logging, Telegram integration, reminders, workflows, and weekly reports.",

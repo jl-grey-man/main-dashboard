@@ -149,7 +149,41 @@
       "source": "mac",
       "state": "approved",
       "added_at": "2026-03-08T13:59:01.989683+00:00",
-      "updated_at": "2026-03-08T13:59:56.477062+00:00"
+      "updated_at": "2026-03-09T10:49:46.876391+00:00",
+      "checklist_blocks": [
+        {
+          "name": "In Progress",
+          "checked": 0,
+          "total": 1,
+          "weight": 0
+        },
+        {
+          "name": "Done",
+          "checked": 13,
+          "total": 13,
+          "weight": 0
+        },
+        {
+          "name": "Phase 2: Useful Tools",
+          "checked": 0,
+          "total": 4,
+          "weight": 0
+        },
+        {
+          "name": "Phase 3: Bigger Features",
+          "checked": 0,
+          "total": 4,
+          "weight": 0
+        },
+        {
+          "name": "Phase 4: Stretch",
+          "checked": 0,
+          "total": 3,
+          "weight": 0
+        }
+      ],
+      "progress": 52.0,
+      "progress_updated": "2026-03-09T10:49:46.876391+00:00"
     },
     {
       "id": "booktrix",

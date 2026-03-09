@@ -149,7 +149,7 @@
       "source": "mac",
       "state": "approved",
       "added_at": "2026-03-08T13:59:01.989683+00:00",
-      "updated_at": "2026-03-09T10:49:48.943929+00:00",
+      "updated_at": "2026-03-09T10:49:49.513406+00:00",
       "checklist_blocks": [
         {
           "name": "In Progress",
@@ -183,7 +183,7 @@
         }
       ],
       "progress": 25.0,
-      "progress_updated": "2026-03-09T10:49:48.943929+00:00",
+      "progress_updated": "2026-03-09T10:49:49.513406+00:00",
       "checklist_tracking": true
     },
     {

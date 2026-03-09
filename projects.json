@@ -472,6 +472,30 @@
       "state": "pending",
       "added_at": "2026-03-09T10:41:26.438752+00:00",
       "updated_at": "2026-03-09T10:41:28.122875+00:00"
+    },
+    {
+      "id": "projects",
+      "name": "Book Trend",
+      "description": "A Python script that fetches popular books by category from the Open Library API and generates a static HTML page displaying them by topic (Tech, Money, Self-Development, Entrepreneurship, ADHD).",
+      "path_pi": "/home/jens/projects",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "Open Library API",
+        "HTML",
+        "CSS"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-09T10:41:52.712934+00:00",
+      "updated_at": "2026-03-09T10:41:52.712934+00:00"
     }
   ]
 }

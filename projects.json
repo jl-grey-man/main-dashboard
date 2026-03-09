@@ -22,7 +22,155 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T19:28:01.907889+00:00",
-      "updated_at": "2026-03-08T19:28:01.907889+00:00"
+      "updated_at": "2026-03-09T11:57:41.309616+00:00",
+      "checklist_blocks": [
+        {
+          "name": "Phase 1: Core Infrastructure",
+          "checked": 8,
+          "total": 8,
+          "weight": 0,
+          "sections": [],
+          "tasks": [
+            {
+              "text": "FastAPI service running on 127.0.0.1:8001",
+              "done": true
+            },
+            {
+              "text": "Static UI served via nginx at /dashboard/",
+              "done": true
+            },
+            {
+              "text": "projects.json + ignored.json as data store",
+              "done": true
+            },
+            {
+              "text": "GitHub sync (jl-grey-man/main-dashboard)",
+              "done": true
+            },
+            {
+              "text": "systemd service (maindashboard-api.service)",
+              "done": true
+            },
+            {
+              "text": "Pi scanner (scan_pi.py) \u2014 runs every 2h via cron",
+              "done": true
+            },
+            {
+              "text": "Mac scanner (scan_mac.py) \u2014 runs every 2h via cron, posts over Tailscale",
+              "done": true
+            },
+            {
+              "text": "API key authentication",
+              "done": true
+            }
+          ]
+        },
+        {
+          "name": "Phase 2: Project Intelligence",
+          "checked": 6,
+          "total": 6,
+          "weight": 0,
+          "sections": [],
+          "tasks": [
+            {
+              "text": "Claude-powered project analysis (claude --print in scanners)",
+              "done": true
+            },
+            {
+              "text": "Collection/monorepo detection and sub-project scanning",
+              "done": true
+            },
+            {
+              "text": "Pending review queue (scanner auto-discovers new projects)",
+              "done": true
+            },
+            {
+              "text": "Manual project add via POST /dashboard/api/projects",
+              "done": true
+            },
+            {
+              "text": "Ignored projects list (ignored.json)",
+              "done": true
+            },
+            {
+              "text": "Stack tag detection",
+              "done": true
+            }
+          ]
+        },
+        {
+          "name": "Phase 3: Feature Completeness",
+          "checked": 7,
+          "total": 9,
+          "weight": 0,
+          "sections": [],
+          "tasks": [
+            {
+              "text": "Checklist progress tracking (checklist_tracking, checklist_blocks, progress fields)",
+              "done": true
+            },
+            {
+              "text": "GET /projects/{id}/checklist/scan \u2014 read Checklist.md, return block counts",
+              "done": true
+            },
+            {
+              "text": "POST /projects/{id}/checklist/refresh \u2014 rescan and update progress in projects.json",
+              "done": true
+            },
+            {
+              "text": "Weighted phase progress (user-assigned weights, normalized)",
+              "done": true
+            },
+            {
+              "text": "Progress bar in collapsed project row",
+              "done": true
+            },
+            {
+              "text": "Open in Agent Deck command logic (Mac + Pi paths)",
+              "done": true
+            },
+            {
+              "text": "Pi project SSH wrapper (unset CLAUDECODE, agent-deck wrapper)",
+              "done": true
+            },
+            {
+              "text": "Mac checklist reading via SSH (ssh mac 'cat {path}/Checklist.md') \u2014 verify working",
+              "done": false
+            },
+            {
+              "text": "Progress bar display after enabling tracking \u2014 end-to-end smoke test",
+              "done": false
+            }
+          ]
+        },
+        {
+          "name": "Phase 4: Polish & Reliability",
+          "checked": 0,
+          "total": 4,
+          "weight": 0,
+          "sections": [],
+          "tasks": [
+            {
+              "text": "Auto-refresh: re-scan checklist on a schedule without manual click",
+              "done": false
+            },
+            {
+              "text": "Stale project detection (projects not scanned in >48h flagged)",
+              "done": false
+            },
+            {
+              "text": "Dashboard self-monitoring: health check endpoint for the dashboard service itself",
+              "done": false
+            },
+            {
+              "text": "Error state display when scanner fails to reach Pi from Mac",
+              "done": false
+            }
+          ]
+        }
+      ],
+      "progress": 77.8,
+      "progress_updated": "2026-03-09T11:57:41.309616+00:00"
     },
     {
       "id": "hichord",

@@ -27,7 +27,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": "A web application for chord-related functionality, built as a React and TypeScript project with audio capabilities (test-audio.cjs suggests music/chord audio processing).",
+      "description": "A React/TypeScript web application for audio processing or music-related functionality, built with Vite.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -40,13 +40,12 @@
       "tech_stack": [
         "React",
         "TypeScript",
-        "Vite",
-        "ESLint"
+        "Vite"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-09T07:00:09.887764+00:00"
+      "updated_at": "2026-03-09T09:00:09.745603+00:00"
     },
     {
       "id": "projectxray",

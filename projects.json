@@ -471,6 +471,35 @@
       "state": "pending",
       "added_at": "2026-03-09T10:41:52.712934+00:00",
       "updated_at": "2026-03-09T10:42:18.075355+00:00"
+    },
+    {
+      "id": "backend",
+      "name": "The Agency Backend",
+      "description": "FastAPI backend for 'The Agency' multi-agent AI orchestration system, routing tasks to specialized Claude Code agents via WebSocket, REST API, and an MCP dispatch server. Handles agent monitoring, audit logging, Telegram integration, reminders, workflows, and weekly reports.",
+      "path_pi": "/mnt/storage/theagency/backend",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "Uvicorn",
+        "WebSockets",
+        "aiosqlite",
+        "Pydantic",
+        "aiohttp",
+        "OpenAI",
+        "MCP"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-09T10:44:27.141908+00:00",
+      "updated_at": "2026-03-09T10:44:27.141908+00:00"
     }
   ]
 }

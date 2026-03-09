@@ -377,29 +377,6 @@
   ],
   "pending": [
     {
-      "id": "redacted",
-      "name": "Redacted Project",
-      "description": "A web-based project with an HTML game component. Contains a game interface (game.html) and a main entry point (index.html).",
-      "path_pi": "/mnt/storage/redacted",
-      "path_mac": null,
-      "status_label": "active",
-      "github_repo": null,
-      "github_url": null,
-      "railway_url": null,
-      "served_at": null,
-      "last_commit_date": null,
-      "last_commit_message": null,
-      "tech_stack": [
-        "HTML",
-        "JavaScript",
-        "CSS"
-      ],
-      "source": "pi",
-      "state": "pending",
-      "added_at": "2026-03-08T13:25:31.186509+00:00",
-      "updated_at": "2026-03-08T14:12:09.652724+00:00"
-    },
-    {
       "id": "swedish-ai-new",
       "name": "Swedish AI SMB Intelligence System",
       "description": "Autonomous daily research pipeline that crawls Swedish-language sources to identify SMBs publicly expressing operational problems AI could solve, delivering structured intelligence briefs with verified company contacts and actionable leads.",

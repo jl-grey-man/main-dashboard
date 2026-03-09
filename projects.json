@@ -176,7 +176,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": "A web application built with React and TypeScript, likely a music or chord-related tool based on the name and audio test file.",
+      "description": "A mobile-first Progressive Web App musical instrument that lets users play diatonic chords with multi-touch gestures, featuring a synth engine with multiple timbres, visual sound effects, and a live-record loop sequencer.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -190,12 +190,15 @@
         "React",
         "TypeScript",
         "Vite",
-        "ESLint"
+        "Tone.js",
+        "Vitest",
+        "Playwright",
+        "PWA"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-09T11:02:18.133597+00:00"
+      "updated_at": "2026-03-09T13:02:19.265154+00:00"
     },
     {
       "id": "projectxray",

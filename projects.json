@@ -53,7 +53,7 @@
     {
       "id": "projectxray",
       "name": "Project X-Ray",
-      "description": "A visual tool that scans Claude Code agent workflows and renders them as an interactive flowchart, showing delegation chains, hard vs soft rules, tool access, and a prompt tracer for predicting agent behavior.",
+      "description": "A visual workflow analyzer for Claude Code agent configurations that scans project directories and renders agent delegation chains, hard vs soft rules, and prompt flow predictions as an interactive flowchart.",
       "path_pi": "/mnt/storage/projectxray",
       "path_mac": null,
       "status_label": "active",
@@ -72,7 +72,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:30.246109+00:00",
-      "updated_at": "2026-03-09T10:43:49.497639+00:00"
+      "updated_at": "2026-03-09T10:47:16.168480+00:00"
     },
     {
       "id": "theagency",

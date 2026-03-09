@@ -502,8 +502,8 @@
     },
     {
       "id": "old",
-      "name": "MicroClaw (Sandy ADHD Coach) \u2014 Documentation Archive",
-      "description": "Archive of documentation for MicroClaw, a Rust Telegram bot that connects Claude AI with agentic tool execution, scheduled tasks, and persistent memory. Includes session logs and planning docs for Sandy, an ADHD coach persona built on top of MicroClaw.",
+      "name": "MicroClaw / Sandy (Documentation Archive)",
+      "description": "An archived documentation snapshot of MicroClaw, a Rust-based agentic Telegram bot powered by Claude AI with tool execution, web search, scheduled tasks, and persistent memory. Includes session notes and implementation plans for 'Sandy', an ADHD coach persona built on top of MicroClaw.",
       "path_pi": "/home/jens/sandy/old",
       "path_mac": null,
       "status_label": "active",
@@ -518,16 +518,14 @@
         "Tokio",
         "teloxide",
         "SQLite",
-        "rusqlite",
         "Anthropic API",
         "reqwest",
-        "serde",
-        "cron"
+        "serde"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T10:42:33.772601+00:00",
-      "updated_at": "2026-03-09T10:42:33.772601+00:00"
+      "updated_at": "2026-03-09T10:43:00.346814+00:00"
     }
   ]
 }

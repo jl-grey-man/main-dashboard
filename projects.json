@@ -27,7 +27,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": "A React-based interactive chord sequencer and synthesizer app that lets users play and sequence musical chords with multi-touch support, built with Tone.js for audio synthesis.",
+      "description": "A web application built with React and TypeScript, likely a music or chord-related tool based on the name and audio test file.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -41,14 +41,12 @@
         "React",
         "TypeScript",
         "Vite",
-        "Tone.js",
-        "Vitest",
-        "Playwright"
+        "ESLint"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-09T10:46:47.734889+00:00"
+      "updated_at": "2026-03-09T11:02:18.133597+00:00"
     },
     {
       "id": "projectxray",

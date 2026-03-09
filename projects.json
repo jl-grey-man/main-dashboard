@@ -394,6 +394,33 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:05.378297+00:00",
       "updated_at": "2026-03-08T14:03:05.378297+00:00"
+    },
+    {
+      "id": "sandy",
+      "name": "Sandy ADHD Coach",
+      "description": "An AI-powered ADHD coach and accountability partner built as a Telegram bot, using a Rust backend with LLM integration (Claude via OpenRouter) to help neurodivergent users manage tasks, track patterns, and build personalized systems.",
+      "path_pi": "/home/jens/sandy",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": "jl-grey-man/JensClaw",
+      "github_url": "https://github.com/jl-grey-man/JensClaw",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-05",
+      "last_commit_message": "fix(soul+zilla): restructure for quality \u2014 front-load reply rules, multi-query search",
+      "tech_stack": [
+        "Rust",
+        "Tokio",
+        "Telegram Bot API",
+        "OpenRouter",
+        "Claude Sonnet",
+        "YAML",
+        "Nginx"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-09T10:40:47.106480+00:00",
+      "updated_at": "2026-03-09T10:40:47.106480+00:00"
     }
   ]
 }

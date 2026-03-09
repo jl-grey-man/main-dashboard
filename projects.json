@@ -338,7 +338,65 @@
       "source": "mac",
       "state": "approved",
       "added_at": "2026-03-08T14:03:32.350897+00:00",
-      "updated_at": "2026-03-08T14:04:05.271715+00:00"
+      "updated_at": "2026-03-09T11:13:04.879068+00:00",
+      "checklist_blocks": [
+        {
+          "name": "Phase 1: Core MVP \u2705 Complete",
+          "checked": 34,
+          "total": 34,
+          "weight": 0,
+          "sections": [
+            "Data Models",
+            "Storage",
+            "Services",
+            "UI",
+            "Tests (18 total, all passing)",
+            "Infrastructure"
+          ]
+        },
+        {
+          "name": "Phase 2: Hardware Validation",
+          "checked": 0,
+          "total": 13,
+          "weight": 0,
+          "sections": []
+        },
+        {
+          "name": "Phase 3: UX Polish",
+          "checked": 0,
+          "total": 20,
+          "weight": 0,
+          "sections": [
+            "Sequoia 15.4.1+ Mount Workaround",
+            "iFlash Corruption Warning",
+            "App Icon & Menu Bar Icons",
+            "Link to Podpal Web App"
+          ]
+        },
+        {
+          "name": "Phase 4: Advanced Features",
+          "checked": 0,
+          "total": 8,
+          "weight": 0,
+          "sections": [
+            "FLAC \u2192 ALAC Conversion (for older iPods that don't support FLAC)"
+          ]
+        },
+        {
+          "name": "Phase 5: Distribution",
+          "checked": 0,
+          "total": 19,
+          "weight": 0,
+          "sections": [
+            "Code Signing & Notarization",
+            "DMG Build",
+            "README",
+            "Release"
+          ]
+        }
+      ],
+      "progress": 36.2,
+      "progress_updated": "2026-03-09T11:13:04.879068+00:00"
     },
     {
       "id": "promptgen",

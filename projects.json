@@ -722,7 +722,7 @@
     {
       "id": "jobbsearch",
       "name": "Lyst Prospector",
-      "description": "Autonomous opportunity discovery system that finds companies and organizations in G\u00f6teborg, identifies problems they have, and drafts personalized outreach emails with a human-in-the-loop review and feedback cycle.",
+      "description": "Autonomous opportunity discovery system that finds companies in G\u00f6teborg, identifies problems they have, and drafts personalized outreach emails with a human review feedback loop.",
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -737,12 +737,13 @@
         "FastAPI",
         "Claude API",
         "SQLite",
-        "BeautifulSoup"
+        "BeautifulSoup",
+        "Google Maps API"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-10T17:03:54.816899+00:00"
+      "updated_at": "2026-03-10T19:04:24.514153+00:00"
     },
     {
       "id": "island",

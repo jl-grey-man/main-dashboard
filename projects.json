@@ -176,7 +176,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": "A Progressive Web App musical instrument that lets you play diatonic chords via touch, featuring a chord grid, multi-touch orbs with particle effects, and a live-record looping sequencer.",
+      "description": "A mobile-first PWA musical instrument that lets users play diatonic chords with multi-touch gestures, featuring a visual sound canvas with particle effects, multiple timbres, and a live-record sequencer.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -191,13 +191,13 @@
         "TypeScript",
         "Vite",
         "Tone.js",
-        "Playwright",
-        "Vitest"
+        "Vitest",
+        "Playwright"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-10T07:03:10.302664+00:00"
+      "updated_at": "2026-03-10T09:03:16.261138+00:00"
     },
     {
       "id": "projectxray",

@@ -652,7 +652,7 @@
     {
       "id": "claude-telegram-bot",
       "name": "Claude Code Telegram Bot",
-      "description": "A Python Telegram bot that provides remote control of Claude Code CLI on a Raspberry Pi, supporting commands for direct task execution, iterative builds with plan approval, and bug fixing with project context.",
+      "description": "A Telegram bot that provides remote control of Claude Code CLI on a Raspberry Pi, supporting direct task execution, bug fixing, and multi-step build workflows via chat commands.",
       "path_pi": "/home/jens/claude-telegram-bot",
       "path_mac": null,
       "status_label": "active",
@@ -666,13 +666,12 @@
         "Python",
         "Telegram Bot API",
         "Claude Code CLI",
-        "systemd",
-        "pytest"
+        "systemd"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T10:41:26.438752+00:00",
-      "updated_at": "2026-03-10T11:01:02.166054+00:00"
+      "updated_at": "2026-03-10T11:02:04.888832+00:00"
     }
   ],
   "pending": [

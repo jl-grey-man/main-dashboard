@@ -752,7 +752,7 @@
     {
       "id": "island",
       "name": "Island 3D",
-      "description": "An interactive 3D floating island screensaver with an animated pirate character who performs activities like fishing, chopping wood, and tending a campfire, with click-based interactions to manipulate the environment.",
+      "description": "An interactive 3D floating island screensaver for PiScreen featuring an animated pirate islander who performs activities like fishing, chopping wood, and tending a campfire, with click-based object interactions and dynamic character reactions.",
       "path_pi": "/mnt/storage/piscreen/apps/island",
       "path_mac": null,
       "status_label": "active",
@@ -770,7 +770,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T23:03:01.951635+00:00",
-      "updated_at": "2026-03-10T01:03:17.174660+00:00"
+      "updated_at": "2026-03-10T03:03:06.301736+00:00"
     }
   ]
 }

@@ -249,8 +249,8 @@
     },
     {
       "id": "testgame",
-      "name": "Test Game (Isometric Car Game)",
-      "description": "A browser-based isometric driving game built with Phaser where players drive customizable cars around a tile-based city map with buildings, fuel mechanics, and weight-based physics.",
+      "name": "Testgame - Isometric Driving Game",
+      "description": "A browser-based isometric driving game built with Phaser 3, featuring a driveable car on a tile-based map with physics, fuel system, buildings, and a HUD. Part of a multi-phase development with car customization and building interaction systems planned.",
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -261,7 +261,7 @@
       "last_commit_date": null,
       "last_commit_message": null,
       "tech_stack": [
-        "Phaser",
+        "Phaser 3",
         "JavaScript",
         "HTML5",
         "Canvas"
@@ -269,7 +269,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-10T19:05:39.092871+00:00"
+      "updated_at": "2026-03-10T21:06:30.359874+00:00"
     },
     {
       "id": "--podpal--",

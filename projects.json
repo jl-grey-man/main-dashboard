@@ -739,7 +739,7 @@
     {
       "id": "island",
       "name": "Island 3D",
-      "description": "An interactive 3D floating island screensaver/app featuring an animated pirate islander who performs autonomous activities and reacts to user interactions. Built for a Raspberry Pi display, accessible via browser.",
+      "description": "An interactive 3D floating island screensaver/app featuring an animated pirate islander who autonomously fishes, chops wood, and reacts to player interactions via click-based context menus.",
       "path_pi": "/mnt/storage/piscreen/apps/island",
       "path_mac": null,
       "status_label": "active",
@@ -756,12 +756,13 @@
         "@react-three/drei",
         "Zustand",
         "Vite",
-        "Vitest"
+        "Vitest",
+        "JavaScript"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T23:03:01.951635+00:00",
-      "updated_at": "2026-03-10T19:05:03.902888+00:00"
+      "updated_at": "2026-03-10T21:05:15.772970+00:00"
     }
   ]
 }

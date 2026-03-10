@@ -601,7 +601,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "A pitch and business plan for a member-owned veterinary cooperative (ekonomisk f\u00f6rening) in Sweden, aimed at offering transparent pricing as an alternative to private equity-owned chains like Evidensia and AniCura.",
+      "description": "A Swedish veterinary cooperative concept project \u2014 business plan and pitch materials for a customer-owned veterinary clinic chain (ekonomisk f\u00f6rening) to compete with private equity-owned chains like Evidensia and AniCura.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -613,12 +613,13 @@
       "last_commit_message": "Rename to index.html",
       "tech_stack": [
         "HTML",
-        "CSS"
+        "CSS",
+        "PDF"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-10T07:03:23.251409+00:00"
+      "updated_at": "2026-03-10T09:03:28.820145+00:00"
     },
     {
       "id": "sandy2",

@@ -242,17 +242,16 @@
         "Python",
         "FastAPI",
         "WebSocket",
+        "SQLite",
         "PIXI.js",
         "JavaScript",
-        "SQLite",
         "Telegram Bot API",
-        "Claude CLI",
-        "systemd"
+        "Claude CLI"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-10T05:03:03.490301+00:00"
+      "updated_at": "2026-03-10T07:04:28.381138+00:00"
     },
     {
       "id": "testgame",

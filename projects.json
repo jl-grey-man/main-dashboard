@@ -749,8 +749,8 @@
     },
     {
       "id": "island",
-      "name": "Island 3D",
-      "description": "An interactive 3D floating island screensaver/app for PiScreen featuring an animated pirate islander who autonomously fishes, chops wood, and reacts to player interactions via click-based context menus.",
+      "name": "island",
+      "description": null,
       "path_pi": "/mnt/storage/piscreen/apps/island",
       "path_mac": null,
       "status_label": "active",
@@ -760,19 +760,11 @@
       "served_at": null,
       "last_commit_date": "2026-03-09",
       "last_commit_message": "feat: deploy script and README",
-      "tech_stack": [
-        "React",
-        "Three.js",
-        "React Three Fiber",
-        "@react-three/drei",
-        "Zustand",
-        "Vite",
-        "Vitest"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T23:03:01.951635+00:00",
-      "updated_at": "2026-03-11T01:03:19.732898+00:00"
+      "updated_at": "2026-03-11T03:05:09.479284+00:00"
     }
   ]
 }

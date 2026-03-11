@@ -256,8 +256,8 @@
     },
     {
       "id": "testgame",
-      "name": "Testgame \u2014 Isometric Post-Apocalyptic Car Game",
-      "description": "A browser-based isometric driving game built with Phaser 3, featuring a driveable car with weight-based physics, fuel system, layered building sprites, and a tile-based map. Currently in Phase 2 development with car customization and scavenging mechanics planned.",
+      "name": "Test Game (Isometric Car World)",
+      "description": "A browser-based isometric driving game built with Phaser 3, featuring a driveable car with weight-based physics, fuel system, layered buildings, and a modular parts/chassis system.",
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -276,7 +276,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-11T15:05:11.012890+00:00"
+      "updated_at": "2026-03-11T17:04:38.036819+00:00"
     },
     {
       "id": "--podpal--",

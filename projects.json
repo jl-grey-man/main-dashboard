@@ -603,7 +603,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "A pitch and business plan for a member-owned veterinary cooperative in Sweden, addressing price gouging by private equity-owned chains. Includes a styled HTML pitch document and detailed plan for launching an ekonomisk f\u00f6rening (cooperative).",
+      "description": "A Swedish business plan and pitch document for a member-owned veterinary cooperative (ekonomisk f\u00f6rening) aimed at providing affordable, transparent veterinary care as an alternative to private equity-controlled chains.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -620,7 +620,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-11T03:03:34.585068+00:00"
+      "updated_at": "2026-03-11T05:03:41.558765+00:00"
     },
     {
       "id": "sandy2",

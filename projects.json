@@ -176,7 +176,7 @@
     {
       "id": "hichord",
       "name": "Hichord",
-      "description": "A mobile-first PWA musical instrument that generates diatonic chords with multi-touch interaction, visual particle effects, and a live-record sequencer with loop playback.",
+      "description": "A mobile-first PWA musical instrument that lets users play diatonic chords with multi-touch gestures, featuring a chord grid, visual sound canvas with particle effects, and a live-record sequencer with loop playback.",
       "path_pi": "/mnt/storage/Hichord",
       "path_mac": null,
       "status_label": "active",
@@ -197,7 +197,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:29.190145+00:00",
-      "updated_at": "2026-03-11T05:03:27.208990+00:00"
+      "updated_at": "2026-03-11T07:02:49.809273+00:00"
     },
     {
       "id": "projectxray",

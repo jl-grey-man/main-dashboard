@@ -203,7 +203,7 @@
     {
       "id": "projectxray",
       "name": "Claude Project X-Ray",
-      "description": "A local web tool that scans Claude Code project directories and renders their full agent configuration stack as an interactive Mermaid flowchart, detecting delegation chains, hard vs soft rules, tool access warnings, and memory gaps.",
+      "description": "A local web tool that scans Claude Code project directories and renders their full configuration stack as an interactive workflow graph, supporting prompt tracing and impact analysis across agents, rules, and delegation chains.",
       "path_pi": "/mnt/storage/projectxray",
       "path_mac": null,
       "status_label": "active",
@@ -224,7 +224,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:30.246109+00:00",
-      "updated_at": "2026-03-11T11:03:45.641478+00:00"
+      "updated_at": "2026-03-11T13:03:46.093343+00:00"
     },
     {
       "id": "theagency",

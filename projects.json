@@ -217,14 +217,13 @@
         "Python",
         "HTML",
         "JavaScript",
-        "CSS",
         "Mermaid",
         "PyYAML"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:30.246109+00:00",
-      "updated_at": "2026-03-11T07:03:46.221725+00:00"
+      "updated_at": "2026-03-11T09:04:50.258470+00:00"
     },
     {
       "id": "theagency",

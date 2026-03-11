@@ -719,6 +719,28 @@
       "state": "pending",
       "added_at": "2026-03-08T14:03:05.378297+00:00",
       "updated_at": "2026-03-08T14:03:05.378297+00:00"
+    },
+    {
+      "id": "whisper-env",
+      "name": "Whisper Python Virtual Environment",
+      "description": "A Python virtual environment set up for OpenAI Whisper, a speech recognition library for audio transcription.",
+      "path_pi": "/home/jens/whisper_env",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "OpenAI Whisper"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-11T23:01:27.304786+00:00",
+      "updated_at": "2026-03-11T23:01:27.304786+00:00"
     }
   ]
 }

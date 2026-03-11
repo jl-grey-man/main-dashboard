@@ -742,7 +742,7 @@
     {
       "id": "island",
       "name": "Island 3D",
-      "description": "An interactive 3D floating island screensaver/app featuring an animated pirate islander who performs autonomous activities and reacts to player interactions via click-based context menus.",
+      "description": "A fully 3D interactive floating island screensaver/app featuring an autonomous pirate islander character who performs activities and reacts to player interactions. Rendered with Three.js via React Three Fiber with procedural island generation, day/night cycles, and clickable context menus.",
       "path_pi": "/mnt/storage/piscreen/apps/island",
       "path_mac": null,
       "status_label": "active",
@@ -759,12 +759,13 @@
         "@react-three/drei",
         "Zustand",
         "Vite",
-        "Vitest"
+        "Vitest",
+        "JavaScript"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-09T23:03:01.951635+00:00",
-      "updated_at": "2026-03-11T05:04:12.915485+00:00"
+      "updated_at": "2026-03-11T07:03:32.641547+00:00"
     }
   ]
 }

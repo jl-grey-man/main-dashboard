@@ -744,8 +744,8 @@
     },
     {
       "id": "mealbot",
-      "name": "MealBot",
-      "description": "A Telegram bot for vegan meal planning with ADHD support. It tracks food inventory (via photo recognition of fridge/freezer/pantry), generates weekly meal plans and shopping lists, and sends configurable meal reminders \u2014 all in Swedish via conversational AI (DeepSeek V3 through OpenRouter).",
+      "name": "Mealbot",
+      "description": "A Telegram bot that uses AI (Claude) to help users track meals and nutrition, with vision capabilities for analyzing food photos and a scheduler for reminders.",
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -757,18 +757,14 @@
       "last_commit_message": null,
       "tech_stack": [
         "Python",
-        "python-telegram-bot",
-        "DeepSeek V3",
-        "OpenRouter",
-        "SQLite",
-        "APScheduler",
-        "httpx",
-        "Pydantic"
+        "Telegram Bot API",
+        "Claude AI",
+        "SQLite"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-12T01:03:41.270174+00:00"
+      "updated_at": "2026-03-12T03:03:11.753844+00:00"
     }
   ]
 }

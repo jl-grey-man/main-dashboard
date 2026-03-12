@@ -744,8 +744,8 @@
     },
     {
       "id": "mealbot",
-      "name": "Mealbot",
-      "description": "A Telegram bot that tracks meals and food intake, likely using AI vision to analyze food photos and a scheduler for reminders or logging prompts.",
+      "name": "Meal Bot",
+      "description": "A Telegram bot with a web interface for meal tracking and planning, using AI vision to analyze food photos and a scheduler for automated meal suggestions.",
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -759,12 +759,13 @@
         "Python",
         "Telegram Bot API",
         "SQLite",
-        "OpenAI Vision"
+        "Flask",
+        "OpenAI Vision API"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-12T17:03:34.136476+00:00"
+      "updated_at": "2026-03-12T19:03:46.581320+00:00"
     }
   ]
 }

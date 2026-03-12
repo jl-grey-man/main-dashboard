@@ -241,18 +241,16 @@
       "tech_stack": [
         "Python",
         "FastAPI",
+        "SQLite",
         "PIXI.js",
         "WebSocket",
-        "SQLite",
         "Telegram Bot API",
-        "Claude CLI",
-        "nginx",
-        "systemd"
+        "Claude CLI"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-11T23:04:23.184912+00:00"
+      "updated_at": "2026-03-12T01:04:57.254648+00:00"
     },
     {
       "id": "testgame",

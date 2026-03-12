@@ -742,7 +742,7 @@
     {
       "id": "mealbot",
       "name": "Mealbot",
-      "description": "A Telegram bot for meal tracking and nutrition coaching that uses AI vision to analyze food photos and track portions and calories.",
+      "description": "A Telegram bot for meal planning and tracking, using AI vision and scheduling to help users manage food portions and meal logs.",
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -756,13 +756,12 @@
         "Python",
         "Telegram Bot API",
         "SQLite",
-        "Claude AI",
-        "Computer Vision"
+        "OpenAI Vision"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-12T05:03:45.213847+00:00"
+      "updated_at": "2026-03-12T07:04:12.420789+00:00"
     }
   ]
 }

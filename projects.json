@@ -600,7 +600,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "A Swedish pitch and business plan for a customer-owned veterinary cooperative (ekonomisk f\u00f6rening) aiming to break the duopoly of IVC Evidensia and AniCura with transparent, affordable pricing.",
+      "description": "Business concept and pitch materials for a customer-owned Swedish veterinary cooperative (ekonomisk f\u00f6rening), proposing an affordable alternative to private equity-owned veterinary chains that dominate 74% of the Swedish market.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -611,13 +611,12 @@
       "last_commit_date": "2026-03-08",
       "last_commit_message": "Rename to index.html",
       "tech_stack": [
-        "HTML",
-        "CSS"
+        "HTML"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-12T05:03:07.126187+00:00"
+      "updated_at": "2026-03-12T07:03:30.047665+00:00"
     },
     {
       "id": "sandy2",

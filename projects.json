@@ -742,8 +742,8 @@
     },
     {
       "id": "mealbot",
-      "name": "MealBot",
-      "description": "A Telegram bot for vegan meal planning with ADHD support that tracks pantry inventory via photos and generates weekly meal plans. Includes a companion web UI for viewing and editing meal data.",
+      "name": "Mealbot",
+      "description": "A Telegram bot that tracks meals and food intake, likely using AI vision to analyze food photos and a scheduler for reminders or logging prompts.",
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -755,16 +755,14 @@
       "last_commit_message": null,
       "tech_stack": [
         "Python",
-        "python-telegram-bot",
-        "APScheduler",
-        "Pydantic",
+        "Telegram Bot API",
         "SQLite",
-        "httpx"
+        "OpenAI Vision"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-12T15:04:45.393135+00:00"
+      "updated_at": "2026-03-12T17:03:34.136476+00:00"
     }
   ]
 }

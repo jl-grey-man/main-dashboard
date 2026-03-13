@@ -676,8 +676,8 @@
     },
     {
       "id": "jobbsearch",
-      "name": "jobbsearch",
-      "description": null,
+      "name": "Lyst Prospector",
+      "description": "Autonomous B2B opportunity discovery pipeline that finds Swedish SMBs in G\u00f6teborg, analyzes their problems, and drafts personalized outreach emails via a six-step scraping and LLM reasoning pipeline with human review.",
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -687,11 +687,18 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "Claude API",
+        "SQLite",
+        "BeautifulSoup",
+        "Google Maps API"
+      ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-13T21:04:27.924754+00:00"
+      "updated_at": "2026-03-13T23:03:09.845224+00:00"
     }
   ],
   "pending": [

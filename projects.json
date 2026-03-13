@@ -638,13 +638,13 @@
         "Telegram Bot API",
         "Whisper",
         "IMAP/SMTP",
-        "nginx",
+        "Flask",
         "systemd"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T10:41:01.530105+00:00",
-      "updated_at": "2026-03-13T11:02:05.560898+00:00"
+      "updated_at": "2026-03-13T13:00:43.388607+00:00"
     },
     {
       "id": "claude-telegram-bot",

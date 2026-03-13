@@ -247,8 +247,8 @@
     },
     {
       "id": "testgame",
-      "name": "Scrap Runner",
-      "description": "A browser-based isometric driving game built with Phaser 3, featuring a driveable car with weight-based physics, layered building sprites, a fuel system, and a post-apocalyptic scrap/salvage theme.",
+      "name": "testgame",
+      "description": null,
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -258,15 +258,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "JavaScript",
-        "Phaser 3",
-        "HTML5 Canvas"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-13T03:07:55.590292+00:00"
+      "updated_at": "2026-03-13T05:07:18.310130+00:00"
     },
     {
       "id": "--podpal--",

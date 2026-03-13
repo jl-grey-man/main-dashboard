@@ -671,8 +671,8 @@
     },
     {
       "id": "jobbsearch",
-      "name": "Lyst Prospector",
-      "description": "Autonomous opportunity discovery system that finds companies in G\u00f6teborg, identifies problems they have, and drafts personalized outreach emails for the Lyst AI agency.",
+      "name": "jobbsearch",
+      "description": null,
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -682,18 +682,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "SQLite",
-        "Claude API",
-        "BeautifulSoup",
-        "Google Maps API"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-13T19:02:36.220900+00:00"
+      "updated_at": "2026-03-13T21:04:27.924754+00:00"
     }
   ],
   "pending": [

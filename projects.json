@@ -785,6 +785,28 @@
       "state": "pending",
       "added_at": "2026-03-13T01:01:01.778104+00:00",
       "updated_at": "2026-03-13T15:01:01.678179+00:00"
+    },
+    {
+      "id": "tasshem",
+      "name": "Tasshem",
+      "description": "A simple website for Tasshem, served via an Express.js server that renders a single HTML wireframe page (wireframe-hundar.html) for what appears to be a dog-related service or product.",
+      "path_pi": "/mnt/storage/tasshem",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": "jl-grey-man/tasshem",
+      "github_url": "https://github.com/jl-grey-man/tasshem",
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": "2026-03-13",
+      "last_commit_message": "Remove design alternative files, keep only wireframe-hundar.html",
+      "tech_stack": [
+        "Node.js",
+        "Express"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-13T17:04:29.177975+00:00",
+      "updated_at": "2026-03-13T17:04:29.177975+00:00"
     }
   ]
 }

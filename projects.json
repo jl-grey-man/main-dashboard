@@ -227,8 +227,8 @@
     },
     {
       "id": "theagency",
-      "name": "The Agency",
-      "description": "A real-time visual AI agent office where 42 AI agents appear as pixel characters in an isometric office, responding to tasks via Telegram and Claude Code CLI with live animations, speech bubbles, and collaborative delegation.",
+      "name": "theagency",
+      "description": null,
       "path_pi": "/mnt/storage/theagency",
       "path_mac": null,
       "status_label": "active",
@@ -238,19 +238,11 @@
       "served_at": null,
       "last_commit_date": "2026-03-07",
       "last_commit_message": "feat: CosmosBeat Mobile \u2014 loop zone redesign + instrument overhaul",
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "PIXI.js",
-        "JavaScript",
-        "WebSocket",
-        "SQLite",
-        "Telegram Bot API"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-13T01:04:51.188007+00:00"
+      "updated_at": "2026-03-13T03:08:56.812461+00:00"
     },
     {
       "id": "testgame",

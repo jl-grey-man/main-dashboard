@@ -622,7 +622,7 @@
     {
       "id": "sandy2",
       "name": "Sandy 2 \u2014 Personal AI Assistant",
-      "description": "A Telegram-based personal AI assistant powered by the Claude Code SDK (Max subscription), with persistent memory, file/shell tools, email integration via ProtonMail, web research, and a web dashboard for memory inspection.",
+      "description": "A personal AI assistant for Jens that communicates via Telegram, powered by the Claude Code SDK (Max subscription). Features conversation memory, file system tools, email integration via ProtonMail/Hydroxide, web research, task management, and a verification framework to catch fabricated tool results.",
       "path_pi": "/home/jens/sandy2",
       "path_mac": null,
       "status_label": "active",
@@ -631,22 +631,22 @@
       "railway_url": null,
       "served_at": null,
       "last_commit_date": "2026-03-13",
-      "last_commit_message": "Parallel preprocessor+convos, dashboard rewrite with CRUD memory editing",
+      "last_commit_message": "fix: Sandy says 'Noterat' without actually saving",
       "tech_stack": [
         "Python",
         "Claude Code SDK",
         "Telegram Bot API",
         "Whisper",
-        "IMAP/SMTP",
-        "Hydroxide",
-        "FastAPI",
+        "IMAP",
+        "SMTP",
+        "Flask",
         "systemd",
-        "JSONL"
+        "MCP"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T10:41:01.530105+00:00",
-      "updated_at": "2026-03-13T13:03:19.065767+00:00"
+      "updated_at": "2026-03-13T17:00:51.903565+00:00"
     },
     {
       "id": "claude-telegram-bot",

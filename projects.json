@@ -741,8 +741,8 @@
     },
     {
       "id": "mealbot",
-      "name": "Mealbot",
-      "description": "A Telegram bot for tracking meals and food intake, with AI-powered vision for food recognition, a web interface, and scheduled reminders.",
+      "name": "mealbot",
+      "description": null,
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -752,17 +752,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "Telegram Bot API",
-        "SQLite",
-        "FastAPI",
-        "OpenAI Vision"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-13T09:03:29.323757+00:00"
+      "updated_at": "2026-03-13T11:03:44.265130+00:00"
     },
     {
       "id": "jens",

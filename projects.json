@@ -656,8 +656,8 @@
     },
     {
       "id": "jobbsearch",
-      "name": "jobbsearch",
-      "description": null,
+      "name": "Lyst Prospector",
+      "description": "Autonomous B2B opportunity discovery system for a G\u00f6teborg AI agency \u2014 scrapes companies, identifies problems they don't know they have, and drafts personalized outreach emails with a human review feedback loop.",
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -667,11 +667,17 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Claude API",
+        "OpenRouter"
+      ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-13T03:06:04.797345+00:00"
+      "updated_at": "2026-03-13T05:05:20.004671+00:00"
     }
   ],
   "pending": [

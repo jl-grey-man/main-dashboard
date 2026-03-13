@@ -602,7 +602,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "A business concept and pitch document for a member-owned veterinary cooperative (ekonomisk f\u00f6rening) in Sweden, aiming to provide affordable veterinary care as an alternative to corporate-owned chains.",
+      "description": "A Swedish pitch and business plan for a member-owned veterinary cooperative (ekonomisk f\u00f6rening), challenging corporate veterinary chains through transparent pricing and democratic ownership.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -619,7 +619,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-13T17:03:22.704429+00:00"
+      "updated_at": "2026-03-13T19:02:23.620397+00:00"
     },
     {
       "id": "sandy2",

@@ -813,8 +813,8 @@
     },
     {
       "id": "projectman",
-      "name": "ProjectMan",
-      "description": "A self-hosted project management dashboard for tracking local and remote projects, with checklist progress tracking, email integration via IMAP/Hydroxide, and an auto-scanner that discovers projects on the filesystem.",
+      "name": "Project Manager",
+      "description": "A self-hosted FastAPI project management dashboard that scans local and remote directories, parses Checklist.md progress, integrates with ProtonMail via Hydroxide IMAP, and provides a web UI for tracking projects, todos, and emails.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -834,7 +834,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-14T21:03:33.656496+00:00"
+      "updated_at": "2026-03-14T23:03:28.281353+00:00"
     }
   ]
 }

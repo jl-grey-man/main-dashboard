@@ -812,8 +812,8 @@
     },
     {
       "id": "projectman",
-      "name": "ProjectMan",
-      "description": "A FastAPI-based project management dashboard that tracks local and remote projects, integrates checklist progress, scans directories for project metadata via Claude CLI, and handles email through IMAP/Hydroxide.",
+      "name": "Project Manager",
+      "description": "A FastAPI-based project management dashboard with SQLite storage, checklist tracking ported from MainDashboard, auto-scanning of project directories, and ProtonMail email integration via Hydroxide.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -833,7 +833,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-14T15:05:11.442916+00:00"
+      "updated_at": "2026-03-14T17:03:54.964008+00:00"
     }
   ]
 }

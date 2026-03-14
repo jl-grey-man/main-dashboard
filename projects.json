@@ -809,8 +809,8 @@
     },
     {
       "id": "projectman",
-      "name": "Project Manager",
-      "description": "A FastAPI-based project management dashboard with SQLite storage, featuring automatic project scanning, checklist progress tracking, and email integration via Hydroxide/IMAP.",
+      "name": "ProjectMan",
+      "description": "A self-hosted project management dashboard for tracking local and remote projects, with checklist progress tracking, email integration via IMAP/Hydroxide, and an auto-scanner that discovers projects on the filesystem.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -830,7 +830,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-14T19:04:08.516821+00:00"
+      "updated_at": "2026-03-14T21:03:33.656496+00:00"
     }
   ]
 }

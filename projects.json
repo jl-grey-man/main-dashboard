@@ -665,8 +665,8 @@
     },
     {
       "id": "jobbsearch",
-      "name": "Lyst Prospector",
-      "description": "Autonomous B2B lead generation pipeline that discovers companies in G\u00f6teborg, analyzes opportunities using LLM reasoning on verified data, and drafts personalized outreach emails with a human-in-the-loop review UI.",
+      "name": "jobbsearch",
+      "description": null,
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -676,18 +676,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "Claude API",
-        "SQLite",
-        "BeautifulSoup",
-        "Google Maps API"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-14T05:04:40.536938+00:00"
+      "updated_at": "2026-03-14T07:04:05.840799+00:00"
     }
   ],
   "pending": [

@@ -787,7 +787,7 @@
     {
       "id": "tasshem",
       "name": "Tasshem",
-      "description": "A website for Tasshem, likely a dog-related service or business (tasshem means 'paw home' in Swedish), with a wireframe HTML prototype included.",
+      "description": "A website for Tasshem, likely a pet/dog-related service based on the wireframe file name 'wireframe-hundar' (Swedish for 'dogs'). Built with Node.js and served via an Express-style server.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -805,7 +805,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-14T07:04:37.820212+00:00"
+      "updated_at": "2026-03-14T09:05:03.162366+00:00"
     }
   ]
 }

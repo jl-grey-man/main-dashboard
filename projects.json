@@ -743,7 +743,7 @@
     {
       "id": "mealbot",
       "name": "MealBot",
-      "description": "A vegan meal planning Telegram bot with ADHD support, using GPT-4o-mini for conversation/tool use and Gemini 2.0 Flash for image/receipt analysis, with a web UI and scheduled reminders.",
+      "description": "A vegan meal planning Telegram bot with ADHD support, using Gemini 2.0 Flash for image/receipt analysis and GPT-4o-mini for conversational tool use, with meal planning, reminders, and a web UI.",
       "path_pi": "/mnt/storage/mealbot",
       "path_mac": null,
       "status_label": "active",
@@ -757,15 +757,16 @@
         "Python",
         "Telegram Bot API",
         "OpenRouter",
-        "GPT-4o-mini",
         "Gemini 2.0 Flash",
+        "GPT-4o-mini",
         "SQLite",
-        "APScheduler"
+        "APScheduler",
+        "systemd"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:03:27.332906+00:00",
-      "updated_at": "2026-03-13T23:03:23.417707+00:00"
+      "updated_at": "2026-03-14T01:04:02.957035+00:00"
     },
     {
       "id": "jens",

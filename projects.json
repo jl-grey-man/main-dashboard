@@ -813,7 +813,7 @@
     {
       "id": "projectman",
       "name": "Project Manager",
-      "description": "A self-hosted project management dashboard built on FastAPI and SQLite, featuring auto-scanning of local and remote projects, checklist progress tracking, and email integration via IMAP/Hydroxide.",
+      "description": "A FastAPI-based project management dashboard for the Raspberry Pi that aggregates local and remote projects, integrates email via ProtonMail/Hydroxide, and provides checklist-based progress tracking with an auto-scanner for discovering new projects.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -833,7 +833,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-15T03:03:58.408263+00:00"
+      "updated_at": "2026-03-15T09:02:59.913302+00:00"
     }
   ]
 }

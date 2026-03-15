@@ -789,8 +789,8 @@
     },
     {
       "id": "tasshem",
-      "name": "tasshem",
-      "description": null,
+      "name": "Tasshem",
+      "description": "A Swedish website for Tasshem, a pet/dog-related service, featuring a warm organic design wireframe with page navigation, modals, and dog listings served via Express.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -800,11 +800,17 @@
       "served_at": null,
       "last_commit_date": "2026-03-13",
       "last_commit_message": "Remove design alternative files, keep only wireframe-hundar.html",
-      "tech_stack": [],
+      "tech_stack": [
+        "Node.js",
+        "Express",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-15T21:04:49.116111+00:00"
+      "updated_at": "2026-03-15T23:04:45.670972+00:00"
     },
     {
       "id": "projectman",

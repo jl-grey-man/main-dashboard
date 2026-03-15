@@ -720,7 +720,7 @@
     {
       "id": "whisper-env",
       "name": "Whisper Python Virtual Environment",
-      "description": "A Python virtual environment set up for OpenAI Whisper, a speech recognition library used for audio transcription tasks.",
+      "description": "A Python virtual environment configured for OpenAI Whisper, a speech recognition and audio transcription library. Contains the isolated Python runtime and dependencies needed to run Whisper-based transcription tasks.",
       "path_pi": "/home/jens/whisper_env",
       "path_mac": null,
       "status_label": "active",
@@ -737,7 +737,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-11T23:01:27.304786+00:00",
-      "updated_at": "2026-03-15T01:01:23.248545+00:00"
+      "updated_at": "2026-03-15T07:01:11.883656+00:00"
     },
     {
       "id": "mealbot",

@@ -807,7 +807,7 @@
     {
       "id": "projectman",
       "name": "ProjectMan",
-      "description": "A personal project management tool with AI-powered email triage, calendar, checklist, and task management. Features a web UI built with Web Components following an \"Action Funnel\" design pattern with energy-gated task prioritization.",
+      "description": "An ADHD-focused project management app with an Action Funnel UI, email triage, calendar integration, and AI-powered operations. Features a Python backend with SQLite and a Web Components-based frontend.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -821,13 +821,14 @@
         "Python",
         "SQLite",
         "Web Components",
-        "JavaScript",
-        "HTML"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-15T15:03:19.968321+00:00"
+      "updated_at": "2026-03-15T17:03:54.092265+00:00"
     }
   ]
 }

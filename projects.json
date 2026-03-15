@@ -594,7 +594,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "Business pitch and planning documents for SamVet, a proposed customer-owned (cooperative) veterinary chain in Sweden aimed at competing with private equity-owned chains through transparent pricing and democratic ownership.",
+      "description": "A pitch and business plan for a member-owned (ekonomisk f\u00f6rening) veterinary cooperative in Sweden, aimed at breaking the duopoly of private equity-owned chains through transparent pricing and democratic ownership.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -605,12 +605,13 @@
       "last_commit_date": "2026-03-08",
       "last_commit_message": "Rename to index.html",
       "tech_stack": [
-        "HTML"
+        "HTML",
+        "CSS"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-15T15:02:14.796188+00:00"
+      "updated_at": "2026-03-15T17:02:58.568361+00:00"
     },
     {
       "id": "sandy2",

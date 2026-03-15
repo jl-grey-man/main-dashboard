@@ -673,7 +673,7 @@
     {
       "id": "jobbsearch",
       "name": "Lyst Prospector",
-      "description": "Autonomous B2B opportunity discovery pipeline that finds companies in G\u00f6teborg, identifies problems they have, and drafts personalized outreach emails \u2014 with a human review loop and anti-hallucination guardrails.",
+      "description": "Autonomous opportunity discovery system that finds companies and organizations in G\u00f6teborg, identifies problems they have, and drafts personalized outreach emails with a human review feedback loop.",
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -693,7 +693,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-14T23:02:51.637462+00:00"
+      "updated_at": "2026-03-15T01:03:55.727395+00:00"
     }
   ],
   "pending": [

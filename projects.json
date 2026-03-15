@@ -254,8 +254,8 @@
     },
     {
       "id": "testgame",
-      "name": "Scrap Runner Testgame",
-      "description": "An isometric driving game prototype featuring a driveable car entity on a tile-based map, with building sprites, weight-based physics, fuel system, and modular car customization (chassis, parts, trunk).",
+      "name": "Scrap Runner (Testgame)",
+      "description": "An isometric car-driving game with weight-based physics, fuel systems, and a driveable map featuring layered buildings and terrain. Built with Phaser 3, featuring modular car/building entities, multiple chassis types, and a scavenging/survival theme.",
       "path_pi": "/mnt/storage/testgame",
       "path_mac": null,
       "status_label": "active",
@@ -274,7 +274,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:25:33.081553+00:00",
-      "updated_at": "2026-03-15T01:05:00.357580+00:00"
+      "updated_at": "2026-03-15T03:04:25.749798+00:00"
     },
     {
       "id": "--podpal--",

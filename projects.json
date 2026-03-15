@@ -227,7 +227,7 @@
     {
       "id": "theagency",
       "name": "The Agency",
-      "description": "A real-time visual AI agent office where 42 AI agents work as pixel characters in an isometric office, responding to tasks via Telegram and Claude Code CLI with live animations showing them think, talk, and collaborate.",
+      "description": "A real-time visual AI agent office where 42 AI agents work as pixel characters in an isometric office, responding to tasks via Telegram and collaborating through a Claude Code CLI orchestrator with a live WebSocket-driven frontend.",
       "path_pi": "/mnt/storage/theagency",
       "path_mac": null,
       "status_label": "active",
@@ -235,23 +235,22 @@
       "github_url": "https://github.com/jl-grey-man/cosmosbeat-mobile",
       "railway_url": null,
       "served_at": null,
-      "last_commit_date": "2026-03-07",
-      "last_commit_message": "feat: CosmosBeat Mobile \u2014 loop zone redesign + instrument overhaul",
+      "last_commit_date": "2026-03-15",
+      "last_commit_message": "fix: remove startup Telegram notification",
       "tech_stack": [
         "Python",
         "FastAPI",
-        "PIXI.js",
-        "WebSocket",
         "SQLite",
+        "WebSocket",
+        "PIXI.js",
+        "JavaScript",
         "Telegram Bot API",
-        "Claude CLI",
-        "systemd",
-        "nginx"
+        "Claude Code CLI"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-15T11:04:37.034268+00:00"
+      "updated_at": "2026-03-15T13:03:48.542637+00:00"
     },
     {
       "id": "testgame",

@@ -812,8 +812,8 @@
     },
     {
       "id": "projectman",
-      "name": "ProjectMan",
-      "description": "An ADHD-focused project management web app with an Action Funnel design \u2014 featuring email triage, calendar ops, checklists, AI assistance, and a card-based daily workflow with energy gating.",
+      "name": "projectman",
+      "description": null,
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -823,18 +823,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "SQLite",
-        "Web Components",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-15T19:04:25.024797+00:00"
+      "updated_at": "2026-03-15T21:03:48.132230+00:00"
     }
   ]
 }

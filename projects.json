@@ -792,7 +792,7 @@
     {
       "id": "tasshem",
       "name": "Tasshem",
-      "description": "A website for Tasshem, likely a dog-related service or community (tass = paw in Swedish), with a Node.js server and an HTML wireframe for a dog-themed page.",
+      "description": "A website for Tasshem, likely a pet/dog-related service, featuring an Express.js server and an HTML wireframe page for dogs.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -804,13 +804,12 @@
       "last_commit_message": "Remove design alternative files, keep only wireframe-hundar.html",
       "tech_stack": [
         "Node.js",
-        "HTML",
-        "JavaScript"
+        "Express"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-16T17:03:26.878411+00:00"
+      "updated_at": "2026-03-16T19:05:17.923908+00:00"
     },
     {
       "id": "projectman",

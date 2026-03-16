@@ -812,8 +812,8 @@
     },
     {
       "id": "projectman",
-      "name": "projectman",
-      "description": null,
+      "name": "Projectman",
+      "description": "A personal project management hub for Jens that aggregates emails needing replies, todos, meetings, and project statuses into a single morning dashboard with AI-assisted triage and action funnel UI.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -823,11 +823,19 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Claude API",
+        "Web Components",
+        "HTML",
+        "CSS"
+      ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-16T15:03:51.402683+00:00"
+      "updated_at": "2026-03-16T17:02:50.708568+00:00"
     },
     {
       "id": "remarkable",

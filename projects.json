@@ -868,7 +868,7 @@
     {
       "id": "remarkable-news",
       "name": "Remarkable News",
-      "description": "AI-curated news magazine generator that fetches RSS feeds, processes articles with AI providers (Anthropic, OpenAI, Ollama), and outputs EPUBs for e-readers like reMarkable with KOreader.",
+      "description": "AI-curated news magazine generator that fetches RSS feeds, summarizes articles using LLMs (Anthropic/OpenAI/Ollama), and produces EPUB files for reading on reMarkable tablets via KOreader.",
       "path_pi": "/mnt/storage/remarkable-news",
       "path_mac": null,
       "status_label": "active",
@@ -882,18 +882,17 @@
         "Python",
         "FastAPI",
         "SQLite",
-        "Anthropic",
-        "feedparser",
-        "ebooklib",
         "APScheduler",
+        "ebooklib",
+        "feedparser",
+        "Anthropic",
         "Jinja2",
-        "Pydantic",
-        "BeautifulSoup"
+        "uvicorn"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-16T15:04:14.876191+00:00",
-      "updated_at": "2026-03-16T15:04:14.876191+00:00"
+      "updated_at": "2026-03-16T17:03:16.865812+00:00"
     }
   ]
 }

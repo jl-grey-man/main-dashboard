@@ -812,7 +812,7 @@
     {
       "id": "projectman",
       "name": "Projectman",
-      "description": "A personal project management hub for Jens' Pi, aggregating emails, todos, meetings, and project status into a single morning dashboard with AI-assisted actions and mail replies.",
+      "description": "A personal project hub and morning dashboard for the Raspberry Pi that aggregates emails needing responses, todos, meetings, and project statuses into one interface with AI-assisted drafts and triage.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -834,7 +834,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-16T19:04:15.979658+00:00"
+      "updated_at": "2026-03-16T21:02:58.781140+00:00"
     },
     {
       "id": "remarkable",

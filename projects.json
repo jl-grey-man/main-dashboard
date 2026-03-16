@@ -789,7 +789,7 @@
     {
       "id": "tasshem",
       "name": "Tasshem",
-      "description": "Swedish pet adoption/rehoming website (\"Tasshem\" = paw home) with a warm, organic design wireframe for browsing dogs available for adoption.",
+      "description": "A Swedish pet adoption/rehoming website (\"Tasshem\" means \"Paw Home\") with wireframe designs for browsing dogs available for adoption, served via Express.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -809,7 +809,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-16T11:04:45.788229+00:00"
+      "updated_at": "2026-03-16T15:04:46.659111+00:00"
     },
     {
       "id": "projectman",

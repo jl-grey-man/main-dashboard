@@ -829,6 +829,34 @@
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
       "updated_at": "2026-03-16T15:03:51.402683+00:00"
+    },
+    {
+      "id": "remarkable",
+      "name": "reMarkable Mod Manager",
+      "description": "Web UI for managing software mods on a reMarkable Paper Pro tablet, supporting sleep screens, splash screens, custom templates, custom fonts, and brightness control via SSH.",
+      "path_pi": "/mnt/storage/remarkable",
+      "path_mac": null,
+      "status_label": "active",
+      "github_repo": null,
+      "github_url": null,
+      "railway_url": null,
+      "served_at": null,
+      "last_commit_date": null,
+      "last_commit_message": null,
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PIL",
+        "SSH",
+        "nginx"
+      ],
+      "source": "pi",
+      "state": "pending",
+      "added_at": "2026-03-16T15:04:03.840291+00:00",
+      "updated_at": "2026-03-16T15:04:03.840291+00:00"
     }
   ]
 }

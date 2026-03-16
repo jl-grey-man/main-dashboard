@@ -815,7 +815,7 @@
     {
       "id": "projectman",
       "name": "Projectman",
-      "description": "A personal project management hub for Jens that aggregates emails needing replies, todos, meetings, and project statuses into a single morning dashboard with AI-assisted triage and action funnel UI.",
+      "description": "A personal project management hub for Jens' Pi, aggregating emails, todos, meetings, and project status into a single morning dashboard with AI-assisted actions and mail replies.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -832,12 +832,12 @@
         "Claude API",
         "Web Components",
         "HTML",
-        "CSS"
+        "Hydroxide IMAP/SMTP"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-16T17:02:50.708568+00:00"
+      "updated_at": "2026-03-16T19:04:15.979658+00:00"
     },
     {
       "id": "remarkable",

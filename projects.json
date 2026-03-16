@@ -242,15 +242,15 @@
         "Python",
         "PIXI.js",
         "JavaScript",
-        "SQLite",
         "WebSocket",
+        "SQLite",
         "Telegram Bot API",
         "Claude Code CLI"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-08T13:38:06.824927+00:00",
-      "updated_at": "2026-03-15T23:05:10.674915+00:00"
+      "updated_at": "2026-03-16T01:04:34.490945+00:00"
     },
     {
       "id": "testgame",

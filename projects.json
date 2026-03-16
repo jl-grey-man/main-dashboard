@@ -812,7 +812,7 @@
     {
       "id": "projectman",
       "name": "Projectman",
-      "description": "A personal project hub and morning dashboard for the Raspberry Pi that aggregates emails needing responses, todos, meetings, and project statuses into one interface with AI-assisted drafts and triage.",
+      "description": "A morning dashboard hub for Jens' projects on the Raspberry Pi that aggregates emails needing replies, todos, meetings, and project statuses into a single Action Funnel interface with AI-assisted responses via Claude API.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -826,15 +826,15 @@
         "Python",
         "FastAPI",
         "SQLite",
-        "Claude API",
+        "Vanilla JavaScript",
         "Web Components",
-        "HTML",
-        "Hydroxide IMAP/SMTP"
+        "Claude API",
+        "Hydroxide"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-16T21:02:58.781140+00:00"
+      "updated_at": "2026-03-16T23:03:45.812351+00:00"
     },
     {
       "id": "remarkable",

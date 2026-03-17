@@ -789,8 +789,8 @@
     },
     {
       "id": "tasshem",
-      "name": "tasshem",
-      "description": null,
+      "name": "Tasshem",
+      "description": "A website for Tasshem, likely a pet or dog-related service based on the wireframe file naming. Built with Node.js and served via a simple Express-style server.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -800,11 +800,15 @@
       "served_at": null,
       "last_commit_date": "2026-03-13",
       "last_commit_message": "Remove design alternative files, keep only wireframe-hundar.html",
-      "tech_stack": [],
+      "tech_stack": [
+        "Node.js",
+        "HTML",
+        "JavaScript"
+      ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-17T07:05:36.864451+00:00"
+      "updated_at": "2026-03-17T09:04:17.849113+00:00"
     },
     {
       "id": "projectman",

@@ -807,8 +807,8 @@
     },
     {
       "id": "projectman",
-      "name": "Projectman",
-      "description": "A personal project management hub that aggregates emails, todos, meetings, and project status into a single morning dashboard with AI-assisted email replies and action items.",
+      "name": "projectman",
+      "description": null,
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -818,19 +818,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "SQLite",
-        "Claude API",
-        "Web Components",
-        "HTML",
-        "CSS"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-17T05:04:29.632654+00:00"
+      "updated_at": "2026-03-17T07:04:03.281909+00:00"
     },
     {
       "id": "remarkable",

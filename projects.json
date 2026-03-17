@@ -617,8 +617,8 @@
     },
     {
       "id": "sandy2",
-      "name": "Sandy 2",
-      "description": "A personal AI assistant for Jens that communicates via Telegram, powered by the Claude Code SDK (Max subscription). Features persistent memory, file/shell tools, email integration via ProtonMail, web research, voice transcription, a verification framework, and a web dashboard.",
+      "name": "Sandy 2 \u2014 Personal AI Assistant",
+      "description": "A Telegram-based personal AI assistant powered by the Claude Code SDK (Max subscription), with persistent memory, file/shell tools, email integration via ProtonMail (Hydroxide), web research, and a read-only memory dashboard.",
       "path_pi": "/home/jens/sandy2",
       "path_mac": null,
       "status_label": "active",
@@ -632,16 +632,15 @@
         "Python",
         "Claude Code SDK",
         "Telegram Bot API",
-        "OpenAI Whisper",
-        "MCP",
+        "Whisper",
         "IMAP/SMTP",
-        "Systemd",
-        "Nginx"
+        "nginx",
+        "systemd"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T10:41:01.530105+00:00",
-      "updated_at": "2026-03-17T13:00:46.871110+00:00"
+      "updated_at": "2026-03-17T13:01:43.215037+00:00"
     },
     {
       "id": "claude-telegram-bot",

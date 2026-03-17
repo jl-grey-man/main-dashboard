@@ -769,8 +769,8 @@
     },
     {
       "id": "jens",
-      "name": "jens",
-      "description": null,
+      "name": "PiPod Home Directory",
+      "description": "Jens' Raspberry Pi 5 home directory containing system management scripts, maintenance utilities, and references to multiple services including a Sandy ADHD coach bot and Claude Telegram bot.",
       "path_pi": "/home/jens",
       "path_mac": null,
       "status_label": "active",
@@ -780,11 +780,17 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [],
+      "tech_stack": [
+        "Bash",
+        "Python",
+        "Rust",
+        "nginx",
+        "systemd"
+      ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T01:01:01.778104+00:00",
-      "updated_at": "2026-03-17T09:01:02.303012+00:00"
+      "updated_at": "2026-03-17T11:00:12.912931+00:00"
     },
     {
       "id": "tasshem",

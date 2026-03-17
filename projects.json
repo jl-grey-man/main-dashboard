@@ -789,7 +789,7 @@
     {
       "id": "tasshem",
       "name": "Tasshem",
-      "description": "A Swedish dog shelter/adoption website wireframe prototype. Serves a single-page HTML wireframe design with warm organic styling, showing multiple page designs for a dog rehoming service.",
+      "description": "A website for Tasshem, likely a dog-related business or service (\"hundar\" means dogs in Swedish). Includes a wireframe HTML page and a Node.js server.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -801,14 +801,13 @@
       "last_commit_message": "Remove design alternative files, keep only wireframe-hundar.html",
       "tech_stack": [
         "Node.js",
-        "Express",
-        "HTML",
-        "CSS"
+        "JavaScript",
+        "HTML"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-17T01:04:01.492423+00:00"
+      "updated_at": "2026-03-17T03:04:23.066922+00:00"
     },
     {
       "id": "projectman",

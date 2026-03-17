@@ -812,8 +812,8 @@
     },
     {
       "id": "projectman",
-      "name": "Projectman",
-      "description": "A personal project management hub for a Raspberry Pi that aggregates emails, todos, meetings, and project status into a single morning dashboard with AI-powered reply suggestions and action prioritization.",
+      "name": "projectman",
+      "description": null,
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -823,19 +823,11 @@
       "served_at": null,
       "last_commit_date": null,
       "last_commit_message": null,
-      "tech_stack": [
-        "Python",
-        "FastAPI",
-        "SQLite",
-        "Claude API",
-        "Web Components",
-        "HTML",
-        "Hydroxide"
-      ],
+      "tech_stack": [],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-17T01:02:58.929386+00:00"
+      "updated_at": "2026-03-17T03:03:42.524242+00:00"
     },
     {
       "id": "remarkable",

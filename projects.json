@@ -601,7 +601,7 @@
     {
       "id": "samvet",
       "name": "SamVet",
-      "description": "Business plan and pitch materials for SamVet, a proposed customer-owned (ekonomisk f\u00f6rening) veterinary chain in Sweden aimed at offering transparent pricing as an alternative to private equity-owned clinic chains.",
+      "description": "Business concept and pitch materials for a Swedish customer-owned veterinary cooperative (ekonomisk f\u00f6rening), including a styled HTML pitch document and full business plan targeting the Swedish veterinary market dominated by private equity.",
       "path_pi": "/mnt/storage/SamVet",
       "path_mac": null,
       "status_label": "active",
@@ -618,7 +618,7 @@
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T09:00:20.581247+00:00",
-      "updated_at": "2026-03-17T07:02:10.796129+00:00"
+      "updated_at": "2026-03-17T09:02:26.740656+00:00"
     },
     {
       "id": "sandy2",

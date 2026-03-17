@@ -849,7 +849,7 @@
     {
       "id": "remarkable",
       "name": "reMarkable Mod Manager",
-      "description": "A Flask web UI for managing software mods on a reMarkable Paper Pro tablet, supporting sleep screens, splash screens, custom templates, fonts, and brightness control via SSH through a Mac relay.",
+      "description": "A Flask web UI for managing software mods on a reMarkable Paper Pro tablet, including sleep screens, splash screens, custom templates, fonts, and reLuminate brightness control via SSH.",
       "path_pi": "/mnt/storage/remarkable",
       "path_mac": null,
       "status_label": "active",
@@ -862,7 +862,7 @@
       "tech_stack": [
         "Python",
         "Flask",
-        "PIL",
+        "Pillow",
         "SSH",
         "HTML",
         "CSS",
@@ -872,7 +872,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-16T15:04:03.840291+00:00",
-      "updated_at": "2026-03-17T09:03:50.009432+00:00"
+      "updated_at": "2026-03-17T11:02:41.158781+00:00"
     },
     {
       "id": "remarkable-news",

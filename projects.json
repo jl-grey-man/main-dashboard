@@ -813,7 +813,7 @@
     {
       "id": "projectman",
       "name": "Projectman",
-      "description": "A personal project management hub for a Raspberry Pi that aggregates emails, todos, meetings, and project status into a single morning dashboard with AI-assisted actions and draft replies.",
+      "description": "A morning dashboard hub that aggregates emails, todos, meetings, and project status into a single AI-powered interface, replacing the need to check multiple tools. Built as a FastAPI backend with a single-page Web Components frontend running on a Raspberry Pi.",
       "path_pi": "/mnt/storage/projectman",
       "path_mac": null,
       "status_label": "active",
@@ -828,15 +828,14 @@
         "FastAPI",
         "SQLite",
         "Claude API",
-        "Web Components",
         "HTML",
-        "CSS",
+        "Web Components",
         "JavaScript"
       ],
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-14T13:04:22.808668+00:00",
-      "updated_at": "2026-03-17T11:02:31.392225+00:00"
+      "updated_at": "2026-03-17T13:03:23.196350+00:00"
     },
     {
       "id": "remarkable",

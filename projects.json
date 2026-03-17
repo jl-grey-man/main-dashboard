@@ -673,7 +673,7 @@
     {
       "id": "jobbsearch",
       "name": "Lyst Prospector",
-      "description": "Autonomous opportunity discovery pipeline that finds companies in G\u00f6teborg, analyzes their problems using LLM reasoning on verified data, and drafts personalized outreach emails with a human review feedback loop.",
+      "description": "Autonomous B2B opportunity discovery system that scrapes Swedish company directories, analyzes business problems using Claude AI, and drafts personalized outreach emails for Lyst agency in G\u00f6teborg.",
       "path_pi": "/mnt/storage/jobbsearch",
       "path_mac": null,
       "status_label": "active",
@@ -687,12 +687,13 @@
         "Python",
         "FastAPI",
         "Claude API",
-        "SQLite"
+        "SQLite",
+        "BeautifulSoup"
       ],
       "source": "pi",
       "state": "approved",
       "added_at": "2026-03-09T17:03:15.589793+00:00",
-      "updated_at": "2026-03-16T23:03:03.736281+00:00"
+      "updated_at": "2026-03-17T01:02:16.393683+00:00"
     }
   ],
   "pending": [

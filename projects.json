@@ -798,7 +798,7 @@
     {
       "id": "tasshem",
       "name": "Tasshem",
-      "description": "A website for Tasshem, likely a pet or dog-related service based on the wireframe file naming. Built with Node.js and served via a simple Express-style server.",
+      "description": "A website for Tasshem, likely a dog-related service or business (wireframe-hundar.html suggests dog content). Built as a Node.js web server.",
       "path_pi": "/mnt/storage/tasshem",
       "path_mac": null,
       "status_label": "active",
@@ -816,7 +816,7 @@
       "source": "pi",
       "state": "pending",
       "added_at": "2026-03-13T17:04:29.177975+00:00",
-      "updated_at": "2026-03-17T09:04:17.849113+00:00"
+      "updated_at": "2026-03-17T11:03:06.239964+00:00"
     },
     {
       "id": "projectman",
